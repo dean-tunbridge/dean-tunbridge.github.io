@@ -1,0 +1,107 @@
+/*Colours*/
+/*
+Perrywinkle
+
+#f1eeff lightest
+#c6bbff light
+#9c88ff main 
+#4722ff dark
+#090033 darkest
+*/
+
+a {
+  text-decoration: none;
+  color: #9c88ff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Lobster', sans-serif;
+  color: #9c88ff;
+  font-size: 40px;
+  padding: 30px;
+  margin: auto;
+}
+
+.main-page {
+  height: auto;
+  width: auto;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('/auckland-skyline.jpg');
+  position: relative;
+}
+
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 20px;
+  margin: 10px;
+}
+
+.name {
+  color: #9c88ff;
+  font-size: 90px;
+  font-family: 'Lobster', sans-serif;
+  letter-spacing: 3px;
+}
+
+.about-me {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 40px;
+  font-size: 30px;
+  letter-spacing: 3px;
+  max-width: 40ch;
+  color: #c6bbff;
+  font-family: Georgia, sans-serif;
+  margin-top: 30px;
+}
+
+.blog-link {
+  color: #9c88ff;
+  font-family: Georgia, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  position: fixed;
+  bottom: 0;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* widescreen displays */
+@media only screen and (min-width: 920px) {
+  .container {
+    /* some layout rules */
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 919px) {
+  .container {
+    /* some layout rules */
+  }
+}
+
+/* phones */
+@media only screen and (max-width: 400px) {
+  .name {
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
+
+  .about-me {
+    font-size: 15px;
+    letter-spacing: 2px;
+    max-width: 30ch;
+  }
+
+  .blog-link {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+}
