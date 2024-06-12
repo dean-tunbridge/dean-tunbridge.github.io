@@ -28,7 +28,7 @@ nav {
   height: auto;
   width: auto;
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url('/images/les-paul.jpg');
   position: relative;
 }
@@ -37,7 +37,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+
   padding: 20px;
   margin: 10px;
 }
@@ -50,15 +50,24 @@ nav {
 }
 
 .about-me {
-  padding: 30px;
+  padding: 15px;
   border-radius: 40px;
   font-size: 30px;
   letter-spacing: 3px;
   font-weight: 400;
-  max-width: 40ch;
+  max-width: 60ch;
   color: #c6bbff;
   font-family: 'Roboto', sans-serif;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+
+.blog-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 30px;
+  padding: 10px;
 }
 
 /* RESPONSIVE DESIGN */
@@ -102,10 +111,18 @@ nav {
     letter-spacing: 2px;
     max-width: 30ch;
     padding: 15px;
+    max-width: 40ch;
   }
 
   nav {
     font-size: 20px;
     padding: 10px;
+  }
+
+  .blog-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
   }
 }
