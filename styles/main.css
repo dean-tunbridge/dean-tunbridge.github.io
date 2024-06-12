@@ -61,15 +61,6 @@ nav {
   margin-top: 30px;
 }
 
-.blog-link {
-  color: #9c88ff;
-  font-family: Georgia, sans-serif;
-  letter-spacing: 1px;
-  margin-bottom: 40px;
-  position: fixed;
-  bottom: 0;
-}
-
 /* RESPONSIVE DESIGN */
 
 /* widescreen displays */
@@ -81,27 +72,26 @@ nav {
 
 /* tablets */
 @media only screen and (max-width: 919px) {
-  .container {
-    /* some layout rules */
-  }
+  /* some layout rules */
 }
 
 /* phones */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .name {
     font-size: 40px;
     letter-spacing: 1px;
   }
 
   .about-me {
+    margin-top: 10px;
     font-size: 15px;
     letter-spacing: 2px;
     max-width: 30ch;
+    padding: 15px;
   }
 
-  .blog-link {
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-    font-size: 10px;
+  nav {
+    font-size: 20px;
+    padding: 10px;
   }
 }
