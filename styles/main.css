@@ -29,7 +29,7 @@ nav {
   width: auto;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('/auckland-skyline.jpg');
+    url('/images/les-paul.jpg');
   position: relative;
 }
 
@@ -54,9 +54,10 @@ nav {
   border-radius: 40px;
   font-size: 30px;
   letter-spacing: 3px;
+  font-weight: 400;
   max-width: 40ch;
   color: #c6bbff;
-  font-family: Georgia, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-top: 30px;
 }
 
@@ -64,14 +65,28 @@ nav {
 
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
-  .container {
-    /* some layout rules */
-  }
+  /* some layout rules */
 }
 
 /* tablets */
 @media only screen and (max-width: 919px) {
-  /* some layout rules */
+  .name {
+    font-size: 80px;
+    letter-spacing: 2px;
+  }
+
+  .about-me {
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    max-width: 30ch;
+    padding: 15px;
+  }
+
+  nav {
+    font-size: 20px;
+    padding: 10px;
+  }
 }
 
 /* phones */
