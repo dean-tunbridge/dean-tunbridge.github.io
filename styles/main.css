@@ -9,22 +9,8 @@ Perrywinkle
 #090033 darkest
 */
 
-a {
-  text-decoration: none;
-  color: #9c88ff;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  font-family: 'Lobster', sans-serif;
-  color: #9c88ff;
-  font-size: 40px;
-  padding: 30px;
-  margin: auto;
-}
-
-.main-page {
+body {
+  font-family: 'Roboto', sans-serif;
   height: auto;
   width: auto;
   background-size: cover;
@@ -33,41 +19,112 @@ nav {
   position: relative;
 }
 
-.main-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  padding: 20px;
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #f1eeff;
+  max-width: 40ch;
   margin: 10px;
 }
 
-.name {
-  color: #9c88ff;
-  font-size: 90px;
-  font-family: 'Lobster', sans-serif;
-  letter-spacing: 3px;
+a {
+  text-decoration: none;
+  color: #c6bbff;
+}
+
+b {
+  color: #c6bbff;
+  max-width: 45ch;
+}
+
+h2 {
+  font-size: 40px;
+  color: #c6bbff;
+  max-width: 50ch;
+}
+
+.main-flex {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #c6bbff;
+  font-size: 60px;
 }
 
 .about-me {
   padding: 15px;
   border-radius: 40px;
   font-size: 30px;
-  letter-spacing: 3px;
-  font-weight: 400;
+
   max-width: 60ch;
   color: #c6bbff;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 20px;
+  margin: 20px;
 }
 
-.blog-sidebar {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 10px;
-  font-size: 30px;
+/* CARD STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+.card-item {
+  width: 400px;
+  margin: 1rem;
+  position: relative;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.6);
+  padding-bottom: 20px;
+  margin: 20px;
+  box-shadow: 0 10px 10px rgba(41, 40, 40, 0.267);
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+
+.content {
+  margin: 10px;
   padding: 10px;
+  color: #f1eeff;
+}
+
+.title {
+  color: #c6bbff;
+  font-size: 20px;
+  align-self: center;
+}
+
+.button {
+  color: #c6bbff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* IMAGES */
+.te-houtaewa-img {
+  background-image: url('/images/auckland.jpg');
+}
+
+.html-css-img {
+  background-image: url('/images/css-box.png');
+}
+
+.identity-values-img {
+  background-image: url('/images/stockholm.jpg');
+}
+
+.learning-plan-img {
+  background-image: url('/images/laptop.jpg');
 }
 
 /* RESPONSIVE DESIGN */
@@ -80,49 +137,30 @@ nav {
 /* tablets */
 @media only screen and (max-width: 919px) {
   .name {
-    font-size: 80px;
+    font-size: 50px;
     letter-spacing: 2px;
   }
 
   .about-me {
     margin-top: 10px;
     font-size: 20px;
-    letter-spacing: 2px;
     max-width: 30ch;
     padding: 15px;
-  }
-
-  nav {
-    font-size: 20px;
-    padding: 10px;
   }
 }
 
 /* phones */
 @media only screen and (max-width: 500px) {
   .name {
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 1px;
   }
 
   .about-me {
     margin-top: 10px;
     font-size: 15px;
-    letter-spacing: 2px;
     max-width: 30ch;
     padding: 15px;
     max-width: 40ch;
-  }
-
-  nav {
-    font-size: 20px;
-    padding: 10px;
-  }
-
-  .blog-sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 5px;
   }
 }
