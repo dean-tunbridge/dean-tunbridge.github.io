@@ -24,7 +24,9 @@ p {
   font-weight: 400;
   color: #f1eeff;
   max-width: 40ch;
-  margin: 10px;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
 }
 
 a {
@@ -54,16 +56,15 @@ h2 {
 .heading {
   color: #c6bbff;
   font-size: 60px;
+  align-items: center;
 }
 
 .about-me {
   padding: 15px;
   border-radius: 40px;
   font-size: 30px;
-
   max-width: 60ch;
   color: #c6bbff;
-  margin: 20px;
 }
 
 /* CARD STYLES */
