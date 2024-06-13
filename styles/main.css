@@ -137,7 +137,7 @@ h2 {
 
 /* tablets */
 @media only screen and (max-width: 919px) {
-  .name {
+  .heading {
     font-size: 50px;
     letter-spacing: 2px;
   }
@@ -152,7 +152,7 @@ h2 {
 
 /* phones */
 @media only screen and (max-width: 500px) {
-  .name {
+  .heading {
     font-size: 30px;
     letter-spacing: 1px;
   }

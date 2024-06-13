@@ -17,7 +17,7 @@
         align-items: center;
         flex-direction: column;
       }
-
+      /*
       h1 {
         padding: 20px 0 0 20px;
       }
@@ -25,21 +25,18 @@
       p {
         max-width: 60ch;
         padding: 20px 0 0 100px;
-      }
+      }*/
 
       .css-box-model {
-        background-color: darkgray;
-        color: black;
+        background-color: darkgrey;
+        color: white;
         width: 500px;
         height: 500px;
         border: 20px solid red;
         padding: 80px;
-        margin: 100px;
+        margin: 100px 0 0 0;
       }
 
-      .padding-model {
-        color: lightblue;
-      }
       .border-model {
         color: red;
       }
@@ -51,19 +48,18 @@
     </h1>
     <div>
       <p>
-        The main difference between <b class="padding-model">padding</b> and
-        <b>margin</b> is that <b class="padding-model">padding</b> controls how
-        much breathing room exists within a box, while <b>margin</b> controls
-        how much breathing room or whitespace exists outside of a box. The gap
-        between this paragraph and the box below is created by the margin for
-        example.
+        The main difference between <b>padding</b> and <b>margin</b> is that
+        <b>padding</b> controls how much breathing room exists within a box,
+        while <b>margin</b> controls how much breathing room or whitespace
+        exists outside of a box. The gap between this paragraph and the box
+        below is created by the margin for example.
       </p>
       <p class="css-box-model">
         I have built an example box here with
         <b class="border-model">border</b>, <b>padding</b> and <b>margin</b>.
         The border is represented with red colouring and is 20px, whilst the
-        padding is the space inside the box, and it is represented by the light
-        blue colouring and is 80px. Finally, the margin is the space outside and
+        padding is the space inside the box, and it is represented by the dark
+        grey colouring and is 80px. Finally, the margin is the space outside and
         around the box and is 100px.
       </p>
     </div>
