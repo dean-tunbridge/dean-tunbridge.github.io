@@ -21,7 +21,7 @@ body {
 
 p {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
   color: #f1eeff;
   max-width: 50ch;
   margin: 20px;
@@ -74,7 +74,7 @@ h2 {
   position: relative;
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.6);
-  padding-bottom: 20px;
+  padding: 1rem;
   margin: 20px;
   box-shadow: 0 10px 10px rgba(41, 40, 40, 0.267);
 }
@@ -96,8 +96,8 @@ h2 {
 
 .title {
   color: #c6bbff;
-  font-size: 20px;
-  align-self: center;
+  font-family: 'Lobster', sans-serif;
+  font-size: 30px;
 }
 
 .button {
@@ -162,7 +162,7 @@ h2 {
 
   p {
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 200;
     color: #f1eeff;
     max-width: 40ch;
     margin: 20px;
