@@ -24,8 +24,8 @@ p {
   font-weight: 300;
   color: #f1eeff;
   max-width: 50ch;
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   align-items: center;
 }
 
@@ -43,7 +43,15 @@ b {
 h2 {
   font-size: 40px;
   color: #c6bbff;
+  max-width: 40ch;
+  align-items: center;
+}
+
+h3 {
+  font-size: 30px;
+  color: #c6bbff;
   max-width: 50ch;
+  align-items: center;
 }
 
 .main-flex {
@@ -134,14 +142,6 @@ h2 {
 @media only screen and (max-width: 919px) {
   .heading {
     font-size: 50px;
-    letter-spacing: 2px;
-  }
-
-  .about-me {
-    margin-top: 10px;
-    font-size: 20px;
-    max-width: 30ch;
-    padding: 15px;
   }
 }
 
@@ -149,24 +149,11 @@ h2 {
 @media only screen and (max-width: 500px) {
   .heading {
     font-size: 30px;
-    letter-spacing: 1px;
-  }
-
-  .about-me {
-    margin-top: 10px;
-    font-size: 15px;
-    max-width: 30ch;
-    padding: 15px;
-    max-width: 40ch;
   }
 
   p {
-    font-size: 15px;
-    font-weight: 200;
     color: #f1eeff;
     max-width: 40ch;
-    margin: 20px;
-    padding: 20px;
     align-items: center;
   }
 }
