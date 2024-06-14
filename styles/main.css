@@ -23,13 +23,14 @@ p {
   font-size: 20px;
   font-weight: 400;
   color: #f1eeff;
-  max-width: 40ch;
+  max-width: 50ch;
   margin: 20px;
   padding: 20px;
   align-items: center;
 }
 
 a {
+  font-family: 'Lobster', sans-serif;
   text-decoration: none;
   color: #c6bbff;
 }
@@ -54,17 +55,11 @@ h2 {
 }
 
 .heading {
+  font-family: 'Lobster', sans-serif;
   color: #c6bbff;
   font-size: 60px;
   align-items: center;
-}
-
-.about-me {
-  padding: 15px;
-  border-radius: 40px;
-  font-size: 30px;
-  max-width: 60ch;
-  color: #c6bbff;
+  margin: 2rem;
 }
 
 /* CARD STYLES */
@@ -163,5 +158,15 @@ h2 {
     max-width: 30ch;
     padding: 15px;
     max-width: 40ch;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #f1eeff;
+    max-width: 40ch;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
   }
 }
