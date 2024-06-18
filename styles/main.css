@@ -9,6 +9,15 @@ Perrywinkle
 #090033 darkest
 */
 
+.back {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   height: auto;
@@ -151,22 +160,6 @@ h1 {
   font-family: 'Lobster', sans-serif;
 }
 
-.css-box-model {
-  font-size: 100%;
-  background-color: darkgrey;
-  color: black;
-  width: 500px;
-  height: 500px;
-  border: 20px solid red;
-  padding: 80px;
-  margin: 100px 0 0 0;
-  align-items: center;
-}
-
-.border-model {
-  color: red;
-}
-
 /* RESPONSIVE DESIGN */
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
@@ -190,5 +183,14 @@ h1 {
     color: #f1eeff;
     max-width: 40ch;
     align-items: center;
+  }
+
+  .back {
+    font-size: 1rem;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
 }
