@@ -20,7 +20,7 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 300;
   color: #f1eeff;
   max-width: 50ch;
@@ -131,8 +131,43 @@ h3 {
   background-image: url('/images/laptop.jpg');
 }
 
-/* RESPONSIVE DESIGN */
+/* CSS BOX STYLES */
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/*
+      h1 {
+        padding: 20px 0 0 20px;
+      }
 
+      p {
+        max-width: 60ch;
+        padding: 20px 0 0 100px;
+      }*/
+
+h1 {
+  font-family: 'Lobster', sans-serif;
+}
+
+.css-box-model {
+  font-size: 100%;
+  background-color: darkgrey;
+  color: black;
+  width: 500px;
+  height: 500px;
+  border: 20px solid red;
+  padding: 80px;
+  margin: 100px 0 0 0;
+  align-items: center;
+}
+
+.border-model {
+  color: red;
+}
+
+/* RESPONSIVE DESIGN */
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
   /* some layout rules */
