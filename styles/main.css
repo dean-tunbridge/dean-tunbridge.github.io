@@ -140,6 +140,10 @@ h3 {
   background-image: url('/images/laptop.jpg');
 }
 
+.js-dom-img {
+  background-image: url('/images/js-img.jpg');
+}
+
 /* CSS BOX STYLES */
 body {
   display: flex;
