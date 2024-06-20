@@ -35,7 +35,6 @@ p {
   max-width: 75ch;
   margin: 15px;
   padding: 15px;
-  align-items: center;
 }
 
 a {
@@ -75,6 +74,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .heading {
@@ -86,10 +86,10 @@ h3 {
 }
 
 .images {
-  width: 50rem;
-  height: 30rem;
+  width: 40rem;
+  height: 20rem;
   border-radius: 30px;
-  position: relative;
+  /*position: relative;*/
   margin: 20px;
   padding: 1rem;
   filter: brightness(0.6);
@@ -193,11 +193,66 @@ h1 {
   .heading {
     font-size: 60px;
   }
+  .mobile-layout {
+    width: 600px;
+    margin: 1rem;
+    position: relative;
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 20px;
+  }
+
+  .mobile-images {
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+  }
+  h2 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+    color: #c6bbff;
+    max-width: 40ch;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+  }
+
+  h3 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 25px;
+    color: #c6bbff;
+    max-width: 50ch;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+  }
 }
 /* phones */
 @media only screen and (max-width: 500px) {
   .heading {
     font-size: 40px;
+  }
+  h2 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 25px;
+    color: #c6bbff;
+    max-width: 40ch;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  h3 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
+    color: #c6bbff;
+    max-width: 50ch;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
   }
 
   p {
@@ -213,5 +268,22 @@ h1 {
     top: 0;
     left: 0;
     width: 100%;
+  }
+  .mobile-layout {
+    width: 400px;
+    margin: 1rem;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    margin: 15px;
+  }
+
+  .mobile-images {
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
   }
 }
