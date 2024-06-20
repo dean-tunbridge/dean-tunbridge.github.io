@@ -29,12 +29,12 @@ body {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 300;
   color: #f1eeff;
-  max-width: 50ch;
-  margin: 10px;
-  padding: 10px;
+  max-width: 75ch;
+  margin: 15px;
+  padding: 15px;
   align-items: center;
 }
 
@@ -50,17 +50,23 @@ b {
 }
 
 h2 {
+  font-family: 'Lobster', sans-serif;
   font-size: 40px;
   color: #c6bbff;
   max-width: 40ch;
   align-items: center;
+  margin: 15px;
+  padding: 15px;
 }
 
 h3 {
+  font-family: 'Lobster', sans-serif;
   font-size: 30px;
   color: #c6bbff;
   max-width: 50ch;
   align-items: center;
+  margin: 15px;
+  padding: 15px;
 }
 
 .main-flex {
@@ -77,6 +83,16 @@ h3 {
   font-size: 60px;
   align-items: center;
   margin: 2rem;
+}
+
+.images {
+  width: 50rem;
+  height: 30rem;
+  border-radius: 30px;
+  position: relative;
+  margin: 20px;
+  padding: 1rem;
+  filter: brightness(0.4);
 }
 
 /* CARD STYLES */
@@ -164,6 +180,8 @@ h1 {
   font-family: 'Lobster', sans-serif;
 }
 
+/* -- USING FLEX BOX FOR RESPONSIVE DESIGN NOW -- */
+
 /* RESPONSIVE DESIGN */
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
@@ -173,14 +191,13 @@ h1 {
 /* tablets */
 @media only screen and (max-width: 919px) {
   .heading {
-    font-size: 50px;
+    font-size: 60px;
   }
 }
-
 /* phones */
 @media only screen and (max-width: 500px) {
   .heading {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   p {
