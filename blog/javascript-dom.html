@@ -24,7 +24,7 @@
         </div>
       </nav>
       <h1 class="heading">Javascript DOM</h1>
-      <h3>What is JavaScript, and how does it relate to HTML and CSS</h3>
+      <h2>What is JavaScript, and how does it relate to HTML and CSS</h2>
       <p>
         In my reflections blog I made the analogy of HTML and CSS being like a
         house, so I will try and make this work when adding JavaScript! I
@@ -68,16 +68,47 @@
         shower, you expect water to come out. Without the plumbing/JavaScript
         this wouldn't be possible.
       </p>
-      <h3>Control flows</h3>
+      <h2>Control flows</h2>
       <p>
         Control flow is the order in which JavaScript executes statements. An
-        example would be an if else statement, Above is an if else statement I made to demonstrate this. The if statement evaluates a condition inside parentheses <b>(x > 5)</b>, If this condition is true, the code following the if statement <b>(console.log('x is greater than 5'))</b>executes.
-        If the condition is false, the code inside the else statement <b>(console.log('x is not greater than 5'))</b> executes.
-        </p>
-        <img class="images" src="/images/if-else-example.png" alt="if else" >
+        example would be an if else statement, Above is an if else statement I
+        made to demonstrate this. The if statement evaluates a condition inside
+        parentheses <b>(x > 5)</b>, If this condition is true, the code
+        following the if statement
+        <b>(console.log('x is greater than 5'))</b>executes. If the condition is
+        false, the code inside the else statement
+        <b>(console.log('x is not greater than 5'))</b> executes.
       </p>
-      <h3>Loops</h3>
-      <p>blah blah blah</p>
+      <img class="images" src="/images/if-else-example.png" alt="if else" />
+
+      <h2>Loops</h2>
+      <p>
+        Loops in JavaScript are used for iterating or repeating over a piece of
+        code multiple times. The two most commonly used types of loop in my
+        experience so far are <b>for loops</b>, and <b>while loops</b>.
+      </p>
+      <h3>For loops</h3>
+      <p>
+        With a for loop, you usually start by declaring a variable <b>(i)</b>
+        <b>( let i = 0;)</b>. Then you check whether the loop should continue or
+        stop based on your parameters <b>(i < 5;)</b>. After each iteration of
+        the loop your variable <b>(i)</b> is updated <b>(i++)</b> which is
+        usually in the form of increasing <b>(i++)</b> or decreasing
+        <b>(i--)</b> the variable <b>(i)</b> before it iterates again.
+      </p>
+      <img class="images" src="/images/for-loop.png" alt="for loop" />
+      <p>
+        The above image is an example of a for loop using the same parameters I
+        used in the explanation above. If you were to open a the console on a
+        webpage <b>(ctrl + shift + J)</b> you would see the results of the below
+        image. What has happened is; we have declared our variable
+        <b>(i = 0)</b> of 0. We have then checked if that number is larger than
+        5. As it is not, we have printed to the console that number, then added
+        +1 <b>(i++)</b> to our variable. We have then repeated this loop over
+        and over until our number is above 5, at which point the loop is
+        resolved.
+      </p>
+      <img class="images" src="/images/console-loop.png" alt="console loop" />
     </div>
   </body>
 
@@ -88,7 +119,3 @@ Describe what the DOM is and an example of how you might interact with it.
 Explain the difference between accessing data from arrays and objects.
 Explain what functions are and why they are helpful.-->
 </html>
-
-
-
-
