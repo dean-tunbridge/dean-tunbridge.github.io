@@ -190,6 +190,10 @@ h3 {
   background-image: url('/images/js-img.jpg');
 }
 
+.emo-int {
+  background-image: url('/images/emotional-int.jpg');
+}
+
 /* CSS BOX STYLES */
 body {
   display: flex;
