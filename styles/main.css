@@ -85,6 +85,13 @@ h3 {
   margin: 2rem;
 }
 
+.homepage-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .images {
   width: 40rem;
   height: 20rem;
