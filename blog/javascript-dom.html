@@ -162,14 +162,75 @@
           src="/images/while-loop.png"
           alt="while loop"
         />
+
+        <h2>Document Object Model</h2>
+        <h3>What is the DOM?</h3>
+        <p>
+          The Document Object Model (DOM) is a programming interface for web
+          documents. The DOM represents the document as objects that way,
+          programming languages can interact with and change the document
+          structure, style, and content. As an object-oriented version of the
+          web page, it can be modified with a programming language like
+          JavaScript. For example, using different methods like
+          <b>getElementById, querySelector, querySelectorAll </b>you can access
+          different parts of the document and edit them. you could run
+          <b>document.getElementById("h1").innerHTML = "Hello World!";</b> and
+          this would access the <b>h1</b> element(s), access the
+          <b>innerHTML</b> <b>&lt;h1&gt;THIS IS THE INNER HTML!&lt;h1&gt;</b>,
+          and edit it to print "Hello World!"
+        </p>
+        <h3>
+          What is the difference between accessing data from arrays and objects?
+        </h3>
+        <p>
+          First we should define what an <b>array</b>, and an <b>object</b> is.
+          An <b>array</b> is a variable that can hold multiple values. It can be
+          thought of as a list that contains a selection of elements, each one
+          identified by an index or a key. This is especially useful when
+          creating ordered collections where items in the collection can be
+          accessed by their numerical position in the list for example
+          <b>accessItem[2]</b>. To declare an Array, use the <b>[]</b> square
+          brackets notation in JavaScript. An example of a commonly used array
+          is <b>let array = [1, 2, 3, 4, 5];</b><br />
+          an <b>object</b> is used to store data in key value pairs, where each
+          property or key has a value. You can store almost anything inside an
+          <b>object</b>. An example of an <b>object</b> could be something like
+          <b>
+            let motorbike = { make: 'Ducati', model: 'Panigale', year: 2024,
+            cylinders: 4, start: function() { console.log('Vroom Vroom!!'); }
+            };</b
+          >
+          This creates an <b>object</b> called <b>'motorbike'</b> that contains
+          the properties <b>make, model, year, and cyclinders</b> which then
+          have the values of <b>Ducati, Panigale, 2024, 4</b>. Notice you can
+          also call a <b>function</b> from within the object.
+        </p>
+        <img
+          class="images mobile-images"
+          src="/images/bikes.png"
+          alt="object example"
+        />
       </div>
     </div>
   </body>
+</html>
 
-  <!--Non-technical could mean writing this as if it was a blog post you would have wanted to read when you first started learning these concepts or to a friend who wants a better understanding of what you are learning. You should show examples of code 
+<!--Non-technical could mean writing this as if it was a blog post you would have wanted to read when you first started learning these concepts or to a friend who wants a better understanding of what you are learning. You should show examples of code 
 and screenshots to help teach others! An analogy to describe JavaScript and its relationship to HTML and CSS.
 Explain control flow and loops using an example process from everyday life, for example, 'waking up' or 'brushing your teeth' (but not those).
 Describe what the DOM is and an example of how you might interact with it.
 Explain the difference between accessing data from arrays and objects.
 Explain what functions are and why they are helpful.-->
-</html>
+
+<!--<script>
+    let motorbike = {
+      make: 'Ducati',
+      model: 'Panigale',
+      year: 2024,
+      cylinders: 4,
+      start: function () {
+        console.log('Vroom Vroom!!')
+      },
+    }
+  </script>
+-->
