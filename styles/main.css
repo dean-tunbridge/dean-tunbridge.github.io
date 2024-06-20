@@ -37,7 +37,7 @@ PERRYWINKLE
 }
 
 body {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: monospace;
   height: auto;
   width: auto;
   background-color: #003459;
@@ -114,8 +114,6 @@ h3 {
 .heading {
   font-family: 'Ubuntu Mono', monospace;
   color: #00a8e8;
-  font-weight: 700;
-  font-style: italic;
   font-size: 60px;
   align-items: center;
   margin: 2rem;
