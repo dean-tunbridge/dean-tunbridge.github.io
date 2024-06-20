@@ -1,6 +1,22 @@
-/*Colours*/
+/* -- COLOURS -- */
+/* -- NEW COLOUR PALLETTES -- */
 /*
-Perrywinkle
+#FFFFFF WHITE
+#00171F RICH BLACK
+#003459 PRUSSIAN BLUE
+#007EA7 CERRULEAN BLUE
+#00A8E8 PICKTON BLUE
+*/
+
+/*
+ #813405 BROWN
+ #D45113 SYRACUSE ORANGE
+ #F9A03F CARROT ORANGE
+ #F8DDA4 PEACH YELLOW
+ #DDF9C1 TEA GREEN
+*/
+/*
+PERRYWINKLE
 
 #f1eeff lightest
 #c6bbff light
@@ -22,40 +38,40 @@ body {
   font-family: 'Roboto', sans-serif;
   height: auto;
   width: auto;
-  background-size: cover;
+  background-color: #003459;
+  /*background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url('/images/les-paul.jpg');
-  position: relative;
+  position: relative;*/
 }
 
 p {
   font-size: 20px;
   font-weight: 300;
-  color: #f1eeff;
+  color: #ffffff;
   max-width: 75ch;
   margin: 15px;
   padding: 15px;
-  text-align: left;
 }
 
 a {
   font-family: 'Lobster', sans-serif;
   text-decoration: none;
-  color: #c6bbff;
+  color: #00a8e8;
 }
 
 b {
-  color: #c6bbff;
+  color: #00a8e8;
   max-width: 45ch;
 }
 
 ul {
   font-size: 20px;
   font-weight: 300;
-  color: #f1eeff;
+  color: #ffffff;
   max-width: 75ch;
   align-items: center;
-  text-align: left;
+
   margin: 15px;
   padding: 15px;
 }
@@ -63,7 +79,7 @@ ul {
 h2 {
   font-family: 'Lobster', sans-serif;
   font-size: 40px;
-  color: #c6bbff;
+  color: #00a8e8;
   max-width: 40ch;
   align-items: center;
   margin: 15px;
@@ -73,9 +89,9 @@ h2 {
 h3 {
   font-family: 'Lobster', sans-serif;
   font-size: 30px;
-  color: #c6bbff;
+  color: #00a8e8;
   max-width: 50ch;
-  align-items: center;
+
   margin: 15px;
   padding: 15px;
 }
@@ -86,13 +102,12 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  margin: 5rem 10rem 0 10rem;
+  text-align: left;
 }
 
 .heading {
   font-family: 'Lobster', sans-serif;
-  color: #c6bbff;
+  color: #00a8e8;
   font-size: 60px;
   align-items: center;
   margin: 2rem;
@@ -103,12 +118,12 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /*margin: 5rem 20rem 0 20rem;*/
+  margin: 5rem 10rem 0 10rem;
 }
 
 .intro {
   font-size: 30px;
-  color: #c6bbff;
+  color: #ffffff;
   max-width: 75ch;
   margin: 15px;
   padding: 15px;
@@ -135,36 +150,37 @@ h3 {
   width: 400px;
   margin: 1rem;
   position: relative;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  background: #00171f;
   padding: 1rem;
   margin: 20px;
-  box-shadow: 0 10px 10px rgba(41, 40, 40, 0.267);
+  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.295);
 }
 
 .image {
   width: 100%;
   height: 300px;
-  border-radius: 8px;
+  border-radius: 10px;
   position: relative;
   background-size: cover;
   background-position: center center;
+  box-shadow: 0 5px 5px rgba(255, 255, 255, 0.096) /*rgba(41, 40, 40, 0.267)*/;
 }
 
 .content {
   margin: 10px;
   padding: 10px;
-  color: #f1eeff;
+  color: #ffffff;
 }
 
 .title {
-  color: #c6bbff;
+  color: #00a8e8;
   font-family: 'Lobster', sans-serif;
   font-size: 30px;
 }
 
 .button {
-  color: #c6bbff;
+  color: #00a8e8;
   font-size: 20px;
   font-weight: 600;
 }
@@ -228,9 +244,15 @@ h1 {
     font-size: 60px;
   }
 
+  .homepage-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .intro {
     font-size: 25px;
-    color: #c6bbff;
     max-width: 60ch;
   }
   .mobile-layout {
@@ -253,7 +275,6 @@ h1 {
   h2 {
     font-family: 'Lobster', sans-serif;
     font-size: 30px;
-    color: #c6bbff;
     max-width: 40ch;
     align-items: center;
     margin: 15px;
@@ -263,7 +284,6 @@ h1 {
   h3 {
     font-family: 'Lobster', sans-serif;
     font-size: 25px;
-    color: #c6bbff;
     max-width: 50ch;
     align-items: center;
     margin: 15px;
@@ -278,7 +298,6 @@ h1 {
   h2 {
     font-family: 'Lobster', sans-serif;
     font-size: 25px;
-    color: #c6bbff;
     max-width: 40ch;
     align-items: center;
     margin: 10px;
@@ -288,7 +307,6 @@ h1 {
   h3 {
     font-family: 'Lobster', sans-serif;
     font-size: 20px;
-    color: #c6bbff;
     max-width: 50ch;
     align-items: center;
     margin: 10px;
@@ -296,14 +314,12 @@ h1 {
   }
 
   p {
-    color: #f1eeff;
     max-width: 40ch;
     align-items: center;
   }
 
   .intro {
     font-size: 20px;
-    color: #c6bbff;
     max-width: 40ch;
   }
 
