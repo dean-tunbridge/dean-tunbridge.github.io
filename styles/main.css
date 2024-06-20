@@ -49,6 +49,17 @@ b {
   max-width: 45ch;
 }
 
+ul {
+  font-size: 20px;
+  font-weight: 300;
+  color: #f1eeff;
+  max-width: 75ch;
+  align-items: center;
+  text-align: left;
+  margin: 15px;
+  padding: 15px;
+}
+
 h2 {
   font-family: 'Lobster', sans-serif;
   font-size: 40px;
