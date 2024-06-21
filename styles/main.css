@@ -117,6 +117,7 @@ h3 {
   color: #00a8e8;
   font-size: 60px;
   align-items: center;
+  padding: 2rem;
   margin: 2rem;
 }
 
@@ -222,20 +223,21 @@ h3 {
 }
 
 /* CSS BOX STYLES */
-body {
-  display: flex;
+.css-box-model {
+  font-family: monospace;
+  background-color: darkgrey;
+  color: black;
+  width: 500px;
+  height: 500px;
+  border: 20px solid red;
+  padding: 80px;
+  margin-top: 50px;
   align-items: center;
-  flex-direction: column;
 }
-/*
-      h1 {
-        padding: 20px 0 0 20px;
-      }
 
-      p {
-        max-width: 60ch;
-        padding: 20px 0 0 100px;
-      }*/
+.border-model {
+  color: red;
+}
 
 h1 {
   font-family: 'Ubuntu Mono', monospace;
@@ -244,6 +246,7 @@ h1 {
 /* -- USING FLEX BOX FOR RESPONSIVE DESIGN NOW -- */
 
 /* RESPONSIVE DESIGN */
+
 /* widescreen displays */
 @media only screen and (min-width: 920px) {
   /* some layout rules */
@@ -357,5 +360,19 @@ h1 {
     position: relative;
     background-size: cover;
     background-position: center center;
+  }
+
+  /* CSS BOX STYLES */
+
+  .css-box-model {
+    font-family: monospace;
+    background-color: darkgrey;
+    color: black;
+    width: auto;
+    height: auto;
+    border: 20px solid red;
+    padding: 40px;
+    margin-top: 50px;
+    align-items: center;
   }
 }

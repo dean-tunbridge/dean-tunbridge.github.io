@@ -2,26 +2,23 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
     <title>Margin, Border, and Padding</title>
     <!--CSS BOX STYLES-->
-    <style>
+    <!--<style>
       body {
         display: flex;
         align-items: center;
         flex-direction: column;
       }
-      /*
+    
       h1 {
         padding: 20px 0 0 20px;
       }
@@ -29,23 +26,32 @@
       p {
         max-width: 60ch;
         padding: 20px 0 0 100px;
-      }*/
+      }
 
       h1 {
-        font-family: 'Lobster', sans-serif;
+        font-family: 'Ubuntu mono', monospace;
         margin-top: 100px;
         padding-top: 100px;
       }
+      
+      p {
+        font-size: 20px;
+        font-weight: 300;
+        color: #ffffff;
+        max-width: 75ch;
+        margin: 15px;
+        padding: 15px;
+      }
 
       .css-box-model {
-        font-weight: 400;
+        font-family: monospace;
         background-color: darkgrey;
         color: black;
         width: 500px;
         height: 500px;
         border: 20px solid red;
         padding: 80px;
-        margin-top: 100px;
+        margin-top: 50px;
         align-items: center;
       }
 
@@ -53,6 +59,7 @@
         color: red;
       }
     </style>
+    -->
   </head>
   <body>
     <nav>
@@ -74,10 +81,9 @@
       <p class="css-box-model">
         I have built an example box here with
         <b class="border-model">border</b>, <b>padding</b> and <b>margin</b>.
-        The border is represented with red colouring and is 20px, whilst the
-        padding is the space inside the box, and it is represented by the dark
-        grey colouring and is 80px. Finally, the margin is the space outside and
-        around the box and is 100px.
+        The border is represented with red colouring, whilst the padding is the
+        space inside the box, and it is represented by the dark grey colouring.
+        Finally, the margin is the space outside and around the box.
       </p>
     </div>
   </body>
