@@ -68,12 +68,13 @@ b {
 }
 
 ul {
+  list-style-type: none;
   font-size: 20px;
   font-weight: 300;
+  list-style-type: none;
   color: #ffffff;
   max-width: 75ch;
   align-items: center;
-
   margin: 15px;
   padding: 15px;
 }
