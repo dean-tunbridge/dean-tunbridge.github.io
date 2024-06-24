@@ -313,7 +313,7 @@ h1 {
 /* phones */
 @media only screen and (max-width: 500px) {
   .heading {
-    font-size: 50px;
+    font-size: 40px;
   }
   h2 {
     font-family: 'Ubuntu Mono', monospace;
@@ -354,9 +354,8 @@ h1 {
   .mobile-layout {
     width: 400px;
     margin: 1rem;
-    position: relative;
     padding: 1rem;
-    margin: 15px;
+    position: relative;
   }
 
   .mobile-images {
