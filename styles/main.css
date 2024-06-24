@@ -162,7 +162,7 @@ h3 {
   background: rgba(0, 23, 31, 0.5);
   padding: 1rem;
   margin: 20px;
-  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.295);
+  box-shadow: 0 10px 10px rgba(0, 166, 232, 0.582);
 }
 
 .image {
@@ -172,7 +172,7 @@ h3 {
   position: relative;
   background-size: cover;
   background-position: center center;
-  box-shadow: 0 5px 5px rgba(255, 255, 255, 0.096) /*rgba(41, 40, 40, 0.267)*/;
+  box-shadow: 0 4px 3px rgba(0, 166, 232, 0.582); /*rgba(41, 40, 40, 0.267)*/
 }
 
 .content {
@@ -220,6 +220,10 @@ h3 {
 
 .emo-int {
   background-image: url('/images/emotional-int.jpg');
+}
+
+.brain-img {
+  background-image: url('/images/brain.jpg');
 }
 
 /* CSS BOX STYLES */
