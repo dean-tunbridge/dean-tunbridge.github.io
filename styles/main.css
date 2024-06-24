@@ -218,12 +218,16 @@ h3 {
   background-image: url('/images/js-img.jpg');
 }
 
-.emo-int {
+.emo-int-img {
   background-image: url('/images/emotional-int.jpg');
 }
 
 .brain-img {
   background-image: url('/images/brain.jpg');
+}
+
+.tui-img {
+  background-image: url('/images/tui.jpg');
 }
 
 /* CSS BOX STYLES */
