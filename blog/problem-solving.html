@@ -22,257 +22,265 @@
     </nav>
     <div class="main-flex">
       <h1 class="heading">Problem Solving</h1>
-      <h2>A time when you were blocked on a simple problem</h2>
-      <h3>what was the problem?</h3>
-      <p>
-        More than once I have come towards the end of a quite complicated
-        function, and I can't understand why it isn't working. So I try
-        everything to try and make it work, and double check my spelling, double
-        check camel case, double check I haven't used camel case in the wrong
-        place. Then after spending way too long and being frustrated, i'll
-        realise I haven't returned anything at the end of it. I did this for the
-        concatMyArray function which wasn't so bad, as I found that function
-        reasonably straightforward to figure out and the syntax wasn't crazy.
-        But on the same day, I did it again on capitalise JavaScript challenge
-        which was already the hardest piece of programming I have ever tried!!!
-      </p>
-      <h3>what problem-solving techniques did you use?</h3>
-      <p>
-        I think I have sort of developed a habit of three different stages of
-        problem solving. For example, the start of the gradebook JavaScript kata
-        where we needed to assign values to an object, and create a new empty
-        object. I understood the question, I understood what code would be
-        required, and I completed without a hitch. That is the first way of
-        problem solving where it goes relatively smoothly, and if something
-        isn't working, I can figure out what to check to make it work.<br /><br />
-        Later on in the same kata we were required to use the push method, which
-        I had some familiarity with, but really didn't know how to implement it
-        within the code I had. So this is the second way of problem solving
-        where I open up tabs with explanations of the push method and use MDN
-        web docs, w3 schools and sometimes freecodecamp blog posts and read
-        everything I can, then try and test the things I have learned until I
-        make some progress. I don't use stack overflow as I think I am not yet
-        anywhere near good enough as a programmer to understand the solutions on
-        that website. So far this has worked pretty well for me, although I try
-        to write my own version of the code once I have found an example or
-        answer so that I know it works. This is how I solved my issues with
-        push. There was also another task on that same kata where we had to make
-        a function that finds an average number. So I again used as much
-        documentation as I could to find the answer for that and again, it
-        worked out well.<br /><br />
-        The third stage is when I am in a situation where I have spent more than
-        an hour or so on a problem, my stress is reaching levels I didn't know
-        were possible, taking a break and coming back seems to have no effect,
-        and I have exhausted the documentation and my brain. If I feel like I
-        understand the task but my functions are just not producing the outcome
-        I would hope, or something seems so abstract that I can't get my head
-        around it, I will put my function into chatGPT and ask why it doesn't
-        work. The times I have done this, I have been so close to having
-        something usable that the solution seems so obvious in hindsight.<br /><br />
-        The best example of this was the capitalize kata. I ended up going down
-        a rabbit hole on how the map method works, I watched video tutorials,
-        had tabs open on all the main resources, and still nothing I tried could
-        pass the test. I felt like I understood what <b>charAt()</b> did and how
-        to use it, and what <b>toUpperCase()</b> did and how to use it, but when
-        it came down to utilising them in my function, I couldn't get it. I fed
-        my code so far into chatGPT and the issue I was having was that I hadn't
-        assigned a variable to the map method and function. I adjusted my code,
-        which passed the first test, but I wasn't passing the second test. The
-        test wanted 'I Can Type Many Sentences' to return but my code returned
-        only 'I C T M S'. It seemed that my function was only returning the
-        first letter of the word capitalised, which is what I was asking for,
-        but the rest of the word was missing! This is where I discovered the
-        <b>slice()</b> method. Just like the <b>charAt()</b> method you can
-        select an index from which to start, so I was able to figure this part
-        out myself without too much trouble. It took a couple of tries for
-        example I tried <b>charAt(0).toUpperCase().word.slice(1)</b> at first
-        and it didn't work. So more googling and i realised it should be
-        <b>charAt(0).toUpperCase() + word.slice(1)</b>
-      </p>
-      <p></p>
-      <h3>how did you feel throughout the process?</h3>
-      <p>
-        For the problems which require only previous knowledge or using online
-        resources, I feel great. I get a really good sense of achievement when I
-        solve problems without too much issue, and my code flows well. There's
-        that little feeling of euphoria in the background when things are going
-        well.<br /><br />
-        For the times when I got ridiculously stressed, I did feel really
-        disappointed, and the usual feelings of not being anywhere near good
-        enough yet crept in. Not to a massive extent, but wondering if I'll ever
-        be able to get a job, and maybe this isn't meant for me and i'm just not
-        smart enough to get it. They pass quite quickly, especially if I manage
-        to solve the problem.<br /><br />
-        One of my main takeaways from this week is that it's ok to use chatGPT
-        as a resource as long as you aren't letting it write all your code for
-        you. I found that if I ask it to define a certain method with examples,
-        it usually just uses the same examples you find on the first page of
-        google, but condenses them into an easily readable paragraph. It also
-        really helps catch errors. Nonetheless I still want to limit my use of
-        it as I think it can become an easy fix to problems when I should just
-        suffer through as I feel that is how I learn best.
-      </p>
-      <h3>what did you learn?</h3>
-      <p>
-        I learned that this course, and to a greater extent this whole journey
-        to learn programming is only going to get harder the more I learn. When
-        you think you've grasped a concept, something else comes along to make
-        you feel like you don't know anything again! I also feel like this week
-        especially, I have learned to not be so hard on myself about some
-        things, but also to hold myself accountable for other things. This is
-        the most hours I've put into a week at this point. I need to also remind
-        myself that it's impossible to understand everything at the minute, so
-        if something isn't clicking, I can come back in a few weeks when my
-        knowledge has grown.<br /><br />
-        With allowing myself to use chatGPT for the first this week, I think one
-        of the most important things for me on this course is not allowing
-        myself to overuse it and give the impression I understand something that
-        I clearly don't. I need to be responsible because the most important
-        thing is learning, and that is only possible through hard work and not
-        taking shortcuts.
-      </p>
-      <h2>A time when you elegantly solved a problem</h2>
-      <h3>what was the problem?</h3>
-      <p>
-        I have a couple of answers for this. Firstly, beginning to use arrow
-        functions, especially inside a functions in a map method for example has
-        been really nice to learn. The code looks so much cleaner and easier to
-        read, especially when you're nested in quite a few layers, It makes it
-        easier to find where you are. So that has was a bonus in an overwise
-        very stressful part of the week.<br /><br />
-        The example I will use though, is question number 6 in the gradebook
-        kata. The question is task was "Complete the getAverage function that
-        takes a name parameter and returns the average of that student’s
-        testScores. You can call the average function within this function." I
-        wrote the following without having to resort to google which felt great
-        to see it work<br />
-        <b
-          >function getAverage(studentName) { <br />return
-          average(gradebook[studentName].testScores) }</b
-        ><br />
-        The reason I enjoyed this so much is that there is a lot going on. It's
-        using functions from other challenges I solved in earlier questions
-        (global scope vs local scope I believe), it has variables, arrays, and
-        it accesses properties using dot notations. It felt like everything I'd
-        learned in that day all put to use in one nice piece of code.
-      </p>
-      <h3>what problem-solving techniques did you use?</h3>
-      <p>
-        For this challenge I had to google how keys work, how to assigning
-        values and how to access properties using dot notations. But this is one
-        of the rarer challenges that felt like the perfect level of challenge
-        for my current skill. I didn't get too stuck but I still felt so
-        satisfied when everything worked. Using documentation and resources from
-        MDN or W3 was plenty enough to successfully understand the task at hand.
-        Compared to the capitalise challenge that I did later in the day, this
-        was extremely enjoyable.
-      </p>
-      <h3>how did you feel throughout the process?</h3>
-      <p>
-        Not only during question 6, but throughout the gradebook challenge I
-        felt great. I felt like I was learning so much, and I felt like I truly
-        understood what I was doing, what each line of code does and how it
-        relates to the rest of the code. I felt in control and on top of things
-        which is a nice place to be.
-      </p>
-      <h3>what did you learn?</h3>
-      <p>
-        That it feels amazing when you solve fairly complicated challenges
-        without needing help. I also learned later in the day that learning
-        won't always be this enjoyable and smooth, and I have to take both in my
-        stride, and deal with them in a levelheaded manner.
-      </p>
-      <h2>
-        Reflect on how confident you feel using each of these problem-solving
-        techniques/processes
-      </h2>
-      <h3>Pseudocode</h3>
-      <p>
-        I hadn't used pseudocode really until this week. But as the challenges
-        got harder, it became essential. I think outlining what you want to
-        achieve from start to finish helps you write the first real line of real
-        code which I always find the hardest. It means you can attack the
-        challenge in bite size chunks. Having said that, something else i've
-        observed when writing pseudocode is that the outline I write never even
-        looks remotely like the actual code I end up writing. I guess this is
-        because I am so new and unfamiliar with different methods, so for
-        example I can sometimes miss out a function that is required, or perhaps
-        a variable I need to add.<br />
-        As the JavaScript kata isn't being published anywhere, I have left all
-        of my original pseudocode so I can reference back and see what I
-        expected the code to look like compared to how it ended up looking. Just
-        looking back at my notes on the capitalise kata now and it looks like
-        the ramblings of a man losing his mind, but I can remember how that felt
-        and I remember how i figured it out as I have the documentation of each
-        step. It's also interesting to see how simple I thought it would be at
-        the start, then the realisation of how many extra steps are required,
-        and how nothing I expected to happen actually happened.
-      </p>
-      <h3>Rubber ducky method</h3>
-      <p>
-        I have to be honest, I have never seen this method before. I have never
-        used it either.
-      </p>
-      <h3>Reading error messages</h3>
-      <p>
-        As with pseudocode, as the week progressed along with the difficulty it
-        became essential to read error messages. During the kata I had the nmp
-        tests open at all time and referenced them constantly. Because I am so
-        new to this, a lot of the time I feel like I am brute forcing things to
-        when I feel close to getting the answer right. Checking the error
-        messages helps this so much as you can see straight away if you've made
-        a breakthrough. Often times there are simple errors in my code on VScode
-        so prettier will throw up an error, and I can easily identify where it
-        is based on the line number. It's usually something as simple as a div
-        or paragraph that hasn't closed properly, but not noticing it can cause
-        problems elsewhere in the code.
-      </p>
-      <h3>Console.logging</h3>
-      <p>
-        This has proved essential again this week, as I have been able to check
-        if I'm on the right track with code. Usually for me it's making sure an
-        array is an array, or I'm trying to access the correct property in a
-        object, or even if I want to see what properties are in an object.
-      </p>
-      <h3>Googling</h3>
-      <p>
-        It usually doesn't take long before I need to google something, and its
-        usually a new method, or to remind myself the syntax for a loop etc. One
-        downside is that I often can't find exactly what I'm looking for, for
-        the explanation uses terms that I don't understand so i'm left in the
-        same position as when I started. This was a major issue during the
-        capitalise and superFlipFlop challenges as I couldn't seem to find an
-        answer to the most basic question to get my code started. I spent long
-        periods without even writing a single useful line.
-      </p>
-      <h3>Asking your peers for help</h3>
-      <p>
-        I do struggle asking for help actually. I think it will be a lot better
-        when i'm at the campus as I find it much easier to interact in person
-        and I am sure I will feel a lot more comfortable then.
-      </p>
-      <h3>Asking coaches for help Improving your process with reflection</h3>
-      <p>
-        Same as above really. I have only really asked a question on discord to
-        make sure I am on the right track with a challenge. Having said that, in
-        our meetings at 10am on Wednesday mornings I have found it easy to ask
-        Dave questions when needed. I certainly don't feel like anyone is
-        unapproachable or anything.
-      </p>
-      <h2>
-        Reflect on a time you were reluctant to ask for help. Consider what made
-        you reluctant to do so. What might you try differently next time?
-      </h2>
-      <p>
-        In hindsight I should have asked for help earlier on the capitalise
-        challenge. I am sure one of the coaches would have been able to help me
-        a lot quicker, and rather than spinning my wheels fpr hours, I could
-        have solved it earlier. A lesson learned and next time I will be much
-        quicker to ask. It's also reassuring to see all my classmates asking
-        questions, and more than once I have been having similar trouble to them
-        and the reply has helped me.
-      </p>
-      <p></p>
+      <div>
+        <h2>A time when you were blocked on a simple problem</h2>
+        <h3>what was the problem?</h3>
+        <p>
+          More than once I have come towards the end of a quite complicated
+          function, and I can't understand why it isn't working. So I try
+          everything to try and make it work, and double check my spelling,
+          double check camel case, double check I haven't used camel case in the
+          wrong place. Then after spending way too long and being frustrated,
+          i'll realise I haven't returned anything at the end of it. I did this
+          for the concatMyArray function which wasn't so bad, as I found that
+          function reasonably straightforward to figure out and the syntax
+          wasn't crazy. But on the same day, I did it again on capitalise
+          JavaScript challenge which was already the hardest piece of
+          programming I have ever tried!!!
+        </p>
+        <h3>what problem-solving techniques did you use?</h3>
+        <p>
+          I think I have sort of developed a habit of three different stages of
+          problem solving. For example, the start of the gradebook JavaScript
+          kata where we needed to assign values to an object, and create a new
+          empty object. I understood the question, I understood what code would
+          be required, and I completed without a hitch. That is the first way of
+          problem solving where it goes relatively smoothly, and if something
+          isn't working, I can figure out what to check to make it work.<br /><br />
+          Later on in the same kata we were required to use the push method,
+          which I had some familiarity with, but really didn't know how to
+          implement it within the code I had. So this is the second way of
+          problem solving where I open up tabs with explanations of the push
+          method and use MDN web docs, w3 schools and sometimes freecodecamp
+          blog posts and read everything I can, then try and test the things I
+          have learned until I make some progress. I don't use stack overflow as
+          I think I am not yet anywhere near good enough as a programmer to
+          understand the solutions on that website. So far this has worked
+          pretty well for me, although I try to write my own version of the code
+          once I have found an example or answer so that I know it works. This
+          is how I solved my issues with push. There was also another task on
+          that same kata where we had to make a function that finds an average
+          number. So I again used as much documentation as I could to find the
+          answer for that and again, it worked out well.<br /><br />
+          The third stage is when I am in a situation where I have spent more
+          than an hour or so on a problem, my stress is reaching levels I didn't
+          know were possible, taking a break and coming back seems to have no
+          effect, and I have exhausted the documentation and my brain. If I feel
+          like I understand the task but my functions are just not producing the
+          outcome I would hope, or something seems so abstract that I can't get
+          my head around it, I will put my function into chatGPT and ask why it
+          doesn't work. The times I have done this, I have been so close to
+          having something usable that the solution seems so obvious in
+          hindsight.<br /><br />
+          The best example of this was the capitalize kata. I ended up going
+          down a rabbit hole on how the map method works, I watched video
+          tutorials, had tabs open on all the main resources, and still nothing
+          I tried could pass the test. I felt like I understood what
+          <b>charAt()</b> did and how to use it, and what
+          <b>toUpperCase()</b> did and how to use it, but when it came down to
+          utilising them in my function, I couldn't get it. I fed my code so far
+          into chatGPT and the issue I was having was that I hadn't assigned a
+          variable to the map method and function. I adjusted my code, which
+          passed the first test, but I wasn't passing the second test. The test
+          wanted 'I Can Type Many Sentences' to return but my code returned only
+          'I C T M S'. It seemed that my function was only returning the first
+          letter of the word capitalised, which is what I was asking for, but
+          the rest of the word was missing! This is where I discovered the
+          <b>slice()</b> method. Just like the <b>charAt()</b> method you can
+          select an index from which to start, so I was able to figure this part
+          out myself without too much trouble. It took a couple of tries for
+          example I tried <b>charAt(0).toUpperCase().word.slice(1)</b> at first
+          and it didn't work. So more googling and i realised it should be
+          <b>charAt(0).toUpperCase() + word.slice(1)</b>
+        </p>
+        <p></p>
+        <h3>how did you feel throughout the process?</h3>
+        <p>
+          For the problems which require only previous knowledge or using online
+          resources, I feel great. I get a really good sense of achievement when
+          I solve problems without too much issue, and my code flows well.
+          There's that little feeling of euphoria in the background when things
+          are going well.<br /><br />
+          For the times when I got ridiculously stressed, I did feel really
+          disappointed, and the usual feelings of not being anywhere near good
+          enough yet crept in. Not to a massive extent, but wondering if I'll
+          ever be able to get a job, and maybe this isn't meant for me and i'm
+          just not smart enough to get it. They pass quite quickly, especially
+          if I manage to solve the problem.<br /><br />
+          One of my main takeaways from this week is that it's ok to use chatGPT
+          as a resource as long as you aren't letting it write all your code for
+          you. I found that if I ask it to define a certain method with
+          examples, it usually just uses the same examples you find on the first
+          page of google, but condenses them into an easily readable paragraph.
+          It also really helps catch errors. Nonetheless I still want to limit
+          my use of it as I think it can become an easy fix to problems when I
+          should just suffer through as I feel that is how I learn best.
+        </p>
+        <h3>what did you learn?</h3>
+        <p>
+          I learned that this course, and to a greater extent this whole journey
+          to learn programming is only going to get harder the more I learn.
+          When you think you've grasped a concept, something else comes along to
+          make you feel like you don't know anything again! I also feel like
+          this week especially, I have learned to not be so hard on myself about
+          some things, but also to hold myself accountable for other things.
+          This is the most hours I've put into a week at this point. I need to
+          also remind myself that it's impossible to understand everything at
+          the minute, so if something isn't clicking, I can come back in a few
+          weeks when my knowledge has grown.<br /><br />
+          With allowing myself to use chatGPT for the first this week, I think
+          one of the most important things for me on this course is not allowing
+          myself to overuse it and give the impression I understand something
+          that I clearly don't. I need to be responsible because the most
+          important thing is learning, and that is only possible through hard
+          work and not taking shortcuts.
+        </p>
+        <h2>A time when you elegantly solved a problem</h2>
+        <h3>what was the problem?</h3>
+        <p>
+          I have a couple of answers for this. Firstly, beginning to use arrow
+          functions, especially inside a functions in a map method for example
+          has been really nice to learn. The code looks so much cleaner and
+          easier to read, especially when you're nested in quite a few layers,
+          It makes it easier to find where you are. So that has was a bonus in
+          an overwise very stressful part of the week.<br /><br />
+          The example I will use though, is question number 6 in the gradebook
+          kata. The question is task was "Complete the getAverage function that
+          takes a name parameter and returns the average of that student’s
+          testScores. You can call the average function within this function." I
+          wrote the following without having to resort to google which felt
+          great to see it work<br />
+          <b
+            >function getAverage(studentName) { <br />return
+            average(gradebook[studentName].testScores) }</b
+          ><br />
+          The reason I enjoyed this so much is that there is a lot going on.
+          It's using functions from other challenges I solved in earlier
+          questions (global scope vs local scope I believe), it has variables,
+          arrays, and it accesses properties using dot notations. It felt like
+          everything I'd learned in that day all put to use in one nice piece of
+          code.
+        </p>
+        <h3>what problem-solving techniques did you use?</h3>
+        <p>
+          For this challenge I had to google how keys work, how to assigning
+          values and how to access properties using dot notations. But this is
+          one of the rarer challenges that felt like the perfect level of
+          challenge for my current skill. I didn't get too stuck but I still
+          felt so satisfied when everything worked. Using documentation and
+          resources from MDN or W3 was plenty enough to successfully understand
+          the task at hand. Compared to the capitalise challenge that I did
+          later in the day, this was extremely enjoyable.
+        </p>
+        <h3>how did you feel throughout the process?</h3>
+        <p>
+          Not only during question 6, but throughout the gradebook challenge I
+          felt great. I felt like I was learning so much, and I felt like I
+          truly understood what I was doing, what each line of code does and how
+          it relates to the rest of the code. I felt in control and on top of
+          things which is a nice place to be.
+        </p>
+        <h3>what did you learn?</h3>
+        <p>
+          That it feels amazing when you solve fairly complicated challenges
+          without needing help. I also learned later in the day that learning
+          won't always be this enjoyable and smooth, and I have to take both in
+          my stride, and deal with them in a levelheaded manner.
+        </p>
+        <h2>
+          Reflect on how confident you feel using each of these problem-solving
+          techniques/processes
+        </h2>
+        <h3>Pseudocode</h3>
+        <p>
+          I hadn't used pseudocode really until this week. But as the challenges
+          got harder, it became essential. I think outlining what you want to
+          achieve from start to finish helps you write the first real line of
+          real code which I always find the hardest. It means you can attack the
+          challenge in bite size chunks. Having said that, something else i've
+          observed when writing pseudocode is that the outline I write never
+          even looks remotely like the actual code I end up writing. I guess
+          this is because I am so new and unfamiliar with different methods, so
+          for example I can sometimes miss out a function that is required, or
+          perhaps a variable I need to add.<br />
+          As the JavaScript kata isn't being published anywhere, I have left all
+          of my original pseudocode so I can reference back and see what I
+          expected the code to look like compared to how it ended up looking.
+          Just looking back at my notes on the capitalise kata now and it looks
+          like the ramblings of a man losing his mind, but I can remember how
+          that felt and I remember how i figured it out as I have the
+          documentation of each step. It's also interesting to see how simple I
+          thought it would be at the start, then the realisation of how many
+          extra steps are required, and how nothing I expected to happen
+          actually happened.
+        </p>
+        <h3>Rubber ducky method</h3>
+        <p>
+          I have to be honest, I have never seen this method before. I have
+          never used it either.
+        </p>
+        <h3>Reading error messages</h3>
+        <p>
+          As with pseudocode, as the week progressed along with the difficulty
+          it became essential to read error messages. During the kata I had the
+          nmp tests open at all time and referenced them constantly. Because I
+          am so new to this, a lot of the time I feel like I am brute forcing
+          things to when I feel close to getting the answer right. Checking the
+          error messages helps this so much as you can see straight away if
+          you've made a breakthrough. Often times there are simple errors in my
+          code on VScode so prettier will throw up an error, and I can easily
+          identify where it is based on the line number. It's usually something
+          as simple as a div or paragraph that hasn't closed properly, but not
+          noticing it can cause problems elsewhere in the code.
+        </p>
+        <h3>Console.logging</h3>
+        <p>
+          This has proved essential again this week, as I have been able to
+          check if I'm on the right track with code. Usually for me it's making
+          sure an array is an array, or I'm trying to access the correct
+          property in a object, or even if I want to see what properties are in
+          an object.
+        </p>
+        <h3>Googling</h3>
+        <p>
+          It usually doesn't take long before I need to google something, and
+          its usually a new method, or to remind myself the syntax for a loop
+          etc. One downside is that I often can't find exactly what I'm looking
+          for, for the explanation uses terms that I don't understand so i'm
+          left in the same position as when I started. This was a major issue
+          during the capitalise and superFlipFlop challenges as I couldn't seem
+          to find an answer to the most basic question to get my code started. I
+          spent long periods without even writing a single useful line.
+        </p>
+        <h3>Asking your peers for help</h3>
+        <p>
+          I do struggle asking for help actually. I think it will be a lot
+          better when i'm at the campus as I find it much easier to interact in
+          person and I am sure I will feel a lot more comfortable then.
+        </p>
+        <h3>Asking coaches for help Improving your process with reflection</h3>
+        <p>
+          Same as above really. I have only really asked a question on discord
+          to make sure I am on the right track with a challenge. Having said
+          that, in our meetings at 10am on Wednesday mornings I have found it
+          easy to ask Dave questions when needed. I certainly don't feel like
+          anyone is unapproachable or anything.
+        </p>
+        <h2>
+          Reflect on a time you were reluctant to ask for help. Consider what
+          made you reluctant to do so. What might you try differently next time?
+        </h2>
+        <p>
+          In hindsight I should have asked for help earlier on the capitalise
+          challenge. I am sure one of the coaches would have been able to help
+          me a lot quicker, and rather than spinning my wheels fpr hours, I
+          could have solved it earlier. A lesson learned and next time I will be
+          much quicker to ask. It's also reassuring to see all my classmates
+          asking questions, and more than once I have been having similar
+          trouble to them and the reply has helped me.
+        </p>
+        <p></p>
+      </div>
     </div>
   </body>
 </html>
