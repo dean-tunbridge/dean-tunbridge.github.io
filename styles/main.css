@@ -183,6 +183,7 @@ h3 {
 .title {
   color: #00a8e8;
   font-family: 'Ubuntu Mono', monospace;
+  text-align: center;
   font-weight: 400;
   font-style: italic;
   font-size: 30px;
@@ -371,6 +372,11 @@ h1 {
     background-size: cover;
     background-position: center center;
   }
+
+  .card-item {
+    box-shadow: 0 5px 5px rgba(0, 166, 232, 0.582);
+  }
+
 
   /* CSS BOX STYLES */
 
