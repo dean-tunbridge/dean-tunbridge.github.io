@@ -229,6 +229,10 @@ h3 {
   background-image: url('/images/tui.jpg');
 }
 
+.rubix-img {
+  background-image: url('/images/rubix.jpg');
+}
+
 /* CSS BOX STYLES */
 .css-box-model {
   font-family: monospace;
