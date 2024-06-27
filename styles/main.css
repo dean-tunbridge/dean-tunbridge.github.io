@@ -141,8 +141,8 @@ h3 {
   height: 20rem;
   border-radius: 30px;
   position: relative;
-  margin: 20px;
-  padding: 1rem;
+  margin: /*15px;*/ 2rem;
+  padding: /*15px;*/ 2rem;
   filter: brightness(0.7);
 }
 
