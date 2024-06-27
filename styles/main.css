@@ -296,7 +296,17 @@ h1 {
     position: relative;
     background-size: cover;
     background-position: center center;
+    margin: 15px;
+    padding: 15px;
   }
+
+  p {
+    max-width: 40ch;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+  }
+
   h2 {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 30px;
@@ -319,6 +329,7 @@ h1 {
 @media only screen and (max-width: 500px) {
   .heading {
     font-size: 40px;
+    padding: 10px;
   }
   h2 {
     font-family: 'Ubuntu Mono', monospace;
@@ -331,7 +342,7 @@ h1 {
 
   h3 {
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 20px;
+    font-size: 25px;
     max-width: 50ch;
     align-items: center;
     margin: 10px;
@@ -372,8 +383,8 @@ h1 {
     position: relative;
     background-size: cover;
     background-position: center center;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
 
   .card-item {
