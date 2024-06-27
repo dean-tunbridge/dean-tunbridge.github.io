@@ -292,6 +292,8 @@ h1 {
   .intro {
     font-size: 25px;
     max-width: 60ch;
+    margin: 10px;
+    padding: 10px;
   }
   .mobile-layout {
     width: 600px;
@@ -318,6 +320,15 @@ h1 {
     align-items: center;
     margin: 15px;
     padding: 15px;
+  }
+
+  .card-p {
+    font-size: 20px;
+    text-align: left;
+    color: #ffffff;
+    max-width: 40ch;
+    margin: 10px;
+    padding: 10px;
   }
 
   h2 {
@@ -370,14 +381,24 @@ h1 {
     padding: 10px;
   }
 
+  .card-p {
+    font-size: 20px;
+    text-align: left;
+    color: #ffffff;
+    max-width: 40ch;
+    margin: 10px;
+    padding: 10px;
+  }
+
   .intro {
     font-size: 20px;
     max-width: 40ch;
   }
 
   .back {
-    font-size: 1rem;
-    padding: 1rem;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
     position: absolute;
     top: 0;
     left: 0;
