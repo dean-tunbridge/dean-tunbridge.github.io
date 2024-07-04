@@ -240,6 +240,10 @@ h3 {
   background-image: url('/images/rubix.jpg');
 }
 
+.reflection-img {
+  background-image: url('/images/reflection.jpg');
+}
+
 /* CSS BOX STYLES */
 .css-box-model {
   font-family: monospace;
