@@ -71,8 +71,8 @@ ul {
   color: #ffffff;
   max-width: 75ch;
   align-items: center;
-  margin: 15px;
-  padding: 15px;
+  margin: 2rem;
+  padding: 2rem;
 }
 
 h2 {
@@ -93,6 +93,8 @@ h3 {
   color: #00a8e8;
   font-weight: 400;
   font-style: italic;
+  max-width: 40ch;
+  align-items: center;
   margin: /*15px;*/ 2rem;
   padding: /*15px;*/ 2rem;
 }
