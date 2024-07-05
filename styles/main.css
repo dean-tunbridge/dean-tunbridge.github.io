@@ -111,6 +111,8 @@ h3 {
 .heading {
   font-family: 'Ubuntu Mono', monospace;
   color: #00a8e8;
+  letter-spacing: 4px;
+  text-align: center;
   font-size: 80px;
   margin: 15px;
   padding: 15px;
