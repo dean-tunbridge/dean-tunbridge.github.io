@@ -254,6 +254,7 @@ h3 {
   font-family: monospace;
   background-color: darkgrey;
   color: black;
+  font-size: 20px;
   width: 500px;
   height: 500px;
   border: 20px solid red;
@@ -264,10 +265,6 @@ h3 {
 
 .border-model {
   color: red;
-}
-
-h1 {
-  font-family: 'Ubuntu Mono', monospace;
 }
 
 /* -- USING FLEX BOX FOR RESPONSIVE DESIGN NOW -- */
