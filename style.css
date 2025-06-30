@@ -48,9 +48,12 @@ body {
   font-size: 3rem;
   color: var(--text-color);
   font-weight: 800;
-  font-family: 'UnifrakturMaguntia';
   cursor: pointer;
   transition: 0.3s ease-in-out;
+}
+
+.logo-font {
+  font-family: 'UnifrakturMaguntia';
 }
 
 .logo:hover {
