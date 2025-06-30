@@ -24,6 +24,8 @@ body {
   color: var(--text-color);
 }
 
+/* HEADER */
+
 .header {
   position: fixed;
   width: 100%;
@@ -66,6 +68,8 @@ span {
   color: transparent;
 }
 
+/* NAVBAR */
+
 .navbar a {
   font-size: 1.8rem;
   color: var(--text-color);
@@ -102,6 +106,8 @@ section {
   min-height: 100vh;
   padding: 10rem 15%;
 }
+
+/* HOME SECTION */
 
 .home {
   display: flex;
@@ -150,6 +156,8 @@ section {
     0 0 100px var(--main-color);
   filter: blur(5px);
 }
+
+/* SOCIAL ICONS & BUTTONS*/
 
 .social-icons a {
   display: inline-flex;
