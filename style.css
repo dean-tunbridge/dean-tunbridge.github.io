@@ -28,6 +28,7 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  left: 0;
   padding: 4rem 15%;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
@@ -85,7 +86,7 @@ span {
   transition: 0.3s ease-in-out;
   color: white;
   border: none;
-  text-wrap: nowrap;
+  text-wrap: none;
 }
 
 .gradient-btn:hover {
