@@ -84,6 +84,12 @@ span {
   border-bottom: 3px solid var(--main-color);
 }
 
+/* Tested animation on header with font change */
+/* color: white;
+  font-family: 'UnifrakturMaguntia';
+  color: #c77dff;
+  font-size: 3rem; */
+
 .gradient-btn {
   font-size: 1.8rem;
   padding: 1rem 2rem;
