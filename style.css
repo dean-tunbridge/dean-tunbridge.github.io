@@ -28,7 +28,6 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
-  bottom: 0;
   padding: 4rem 15%;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
