@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
-  font-family: 'MedievalSharp', cursive;
+  font-family: 'Poppins';
 }
 
 :root {
@@ -48,6 +48,7 @@ body {
   font-size: 3rem;
   color: var(--text-color);
   font-weight: 800;
+  font-family: 'UnifrakturMaguntia';
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
@@ -81,7 +82,8 @@ span {
   padding: 1rem 2rem;
   border-radius: 3rem;
   background: linear-gradient(270deg, #5a189a, #c77dff);
-  letter-spacing: 1px;
+  font-family: 'UnifrakturMaguntia';
+  letter-spacing: 2px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
   color: white;
