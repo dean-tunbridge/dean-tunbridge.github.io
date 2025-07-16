@@ -379,6 +379,7 @@ section {
   place-items: center;
   gap: 3rem;
   row-gap: 5rem;
+  align-items: stretch;
 }
 
 .project-card {
@@ -398,33 +399,26 @@ section {
 }
 
 .project-card img {
-  width: 40%;
-  height: 100%;
+  padding: 10px;
+  margin: 10px;
+  max-height: 40em;
+  min-width: 50em;
   object-fit: cover;
   border-radius: 2rem;
+  display: block;
 }
 
 .project-card h3 {
-  font-size: 2.4rem;
+  font-size: 3rem;
   text-align: center;
   margin: 0;
 }
 
 .project-card p {
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 1.4;
   margin: 1rem 0;
   text-align: center;
-}
-
-.project-card .btn {
-  align-self: center;
-  padding: 1rem 2rem;
-  border-radius: 1rem;
-  background-color: var(--main-color);
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 /* CONTACT */
