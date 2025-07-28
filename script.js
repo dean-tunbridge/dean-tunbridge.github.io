@@ -6,4 +6,16 @@ menuIcon.onclick = () => {
   navbar.classList.toggle('active')
 }
 
-document.querySelectorAll('.project-img')
+document.querySelectorAll('.project-img').forEach((img) => {
+  let project = img.alt
+  let beforeImg = `${project}-before.png`
+  let afterImg = `${project}-after.png`
+
+  img.addEventListener('mouseover', () => {
+    img.src = afterImg
+  })
+
+  img.addEventListener('mouseout', () => {
+    img.src = beforeImg
+  })
+})
