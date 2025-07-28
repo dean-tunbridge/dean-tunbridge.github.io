@@ -133,7 +133,6 @@ span {
   font-family: 'Press Start 2P', system-ui;
   font-size: 2rem;
   padding: 2rem 2rem;
-  cursor: pointer;
   transition: 0.3s ease-in-out;
   background-color: #c00000;
   border: 4px #880000 solid;
