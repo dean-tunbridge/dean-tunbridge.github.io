@@ -127,6 +127,7 @@ span {
   transition: 0.3s ease-in-out;
   background-color: #737373;
   border: 4px #a0a0a0 solid;
+  border-radius: 8px;
   color: #c00000;
   text-wrap: none;
 }
@@ -134,6 +135,7 @@ span {
 .gradient-btn:hover {
   transform: scale(1.1);
   box-shadow: inset -8px -8px #2c2c2c;
+  border-radius: 16px;
 }
 
 section {
@@ -190,6 +192,7 @@ section {
   padding: 1rem;
   background: transparent;
   border: 4px #a0a0a0 solid;
+  border-radius: 8px;
   color: var(--main-color);
   margin: 3rem 0.5rem;
   transition: 0.3s ease-in-out;
@@ -199,11 +202,15 @@ section {
   background-color: var(--main-color);
   color: #00b8f8;
   transform: scale(1.2) translateY(-5px);
+  border-radius: 16px;
+  box-shadow: inset -8px -8px #2c2c2c;
 }
 .social-icons a:first-child:hover {
   background-color: var(--main-color);
   color: #f8b800;
   transform: scale(1.2) translateY(-5px);
+  border-radius: 16px;
+  box-shadow: inset -8px -8px #2c2c2c;
 }
 
 .btn-group {
@@ -219,6 +226,7 @@ section {
   transition: 0.3s ease-in-out;
   background-color: #737373;
   border: 4px #a0a0a0 solid;
+  border-radius: 8px;
   color: #c00000;
   text-wrap: none;
 }
@@ -226,6 +234,7 @@ section {
 .btn:hover {
   transform: scale(1.1);
   box-shadow: inset -8px -8px #2c2c2c;
+  border-radius: 16px;
 }
 
 /* ABOUT ME SECTION */
@@ -303,6 +312,7 @@ section {
   cursor: pointer;
   background-color: #737373;
   border: 8px #a0a0a0 solid;
+  border-radius: 8px;
   transition: 0.3s ease-in-out;
   color: white;
 }
@@ -312,6 +322,8 @@ section {
   color: #f8b800;
   border: 8px solid #f8b800;
   transform: scale(1.1);
+  box-shadow: inset -8px -8px #8d6a00;
+  border-radius: 16px;
 }
 
 .skills-box:nth-child(2):hover {
@@ -319,6 +331,8 @@ section {
   color: #c00000;
   border: 8px solid #c00000;
   transform: scale(1.1);
+  box-shadow: inset -8px -8px #7a0000;
+  border-radius: 16px;
 }
 
 .skills-box:nth-child(3):hover {
@@ -326,6 +340,8 @@ section {
   color: #a4e400;
   border: 8px solid #a4e400;
   transform: scale(1.1);
+  box-shadow: inset -8px -8px #608600;
+  border-radius: 16px;
 }
 
 .skills-info {
@@ -376,6 +392,7 @@ section {
   text-align: left;
   background-color: var(--bg-color);
   border: 8px solid #a0a0a0;
+  border-radius: 8px;
   padding: 2rem;
   gap: 2rem;
   transition: 0.3s ease;
@@ -392,8 +409,6 @@ section {
   object-fit: cover;
   display: block;
   background-repeat: no-repeat;
-  background-size: 1px; /* Smaller value = more pixelated */
-  filter: blur(1px);
 }
 
 .project-card p {
@@ -419,6 +434,8 @@ section {
 
 .project-card:nth-of-type(1):hover {
   border: 8px solid #f8b800;
+  box-shadow: inset -12px -12px #8d6a00;
+  border-radius: 16px;
 }
 .project-card:nth-of-type(1):hover h3 {
   color: #f8b800;
@@ -426,6 +443,8 @@ section {
 
 .project-card:nth-of-type(2):hover {
   border: 8px solid #f85800;
+  box-shadow: inset -12px -12px #812d00;
+  border-radius: 16px;
 }
 .project-card:nth-of-type(2):hover h3 {
   color: #f85800;
@@ -433,6 +452,8 @@ section {
 
 .project-card:nth-of-type(3):hover {
   border: 8px solid #2040c0;
+  box-shadow: inset -12px -12px #112161;
+  border-radius: 16px;
 }
 .project-card:nth-of-type(3):hover h3 {
   color: #2040c0;
@@ -440,6 +461,8 @@ section {
 
 .project-card:nth-of-type(4):hover {
   border: 8px solid #682b8c;
+  box-shadow: inset -12px -12px #200e2b;
+  border-radius: 16px;
 }
 .project-card:nth-of-type(4):hover h3 {
   color: #682b8c;
@@ -447,6 +470,8 @@ section {
 
 .project-card:nth-of-type(5):hover {
   border: 8px solid #c00000;
+  box-shadow: inset -12px -12px #7a0000;
+  border-radius: 16px;
 }
 .project-card:nth-of-type(5):hover h3 {
   color: #c00000;
