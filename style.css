@@ -135,16 +135,17 @@ span {
   padding: 2rem 2rem;
   cursor: pointer;
   transition: 0.3s ease-in-out;
-  background-color: #737373;
-  border: 4px #a0a0a0 solid;
+  background-color: #c00000;
+  border: 4px #880000 solid;
   border-radius: 8px;
-  color: #c00000;
+  color: white;
   text-wrap: none;
 }
 
 .gradient-btn:hover {
   transform: scale(1.1);
-  box-shadow: inset -8px -8px #2c2c2c;
+  background-color: #880000;
+  box-shadow: inset -8px -8px #3a0000;
   border-radius: 16px;
 }
 
