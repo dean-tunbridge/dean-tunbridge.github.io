@@ -180,6 +180,14 @@ section {
   width: 400px;
   height: 400px;
   border: 8px #a0a0a0 solid;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+}
+
+.home-img img:hover {
+  transform: scale(1.05);
+  box-shadow: inset -8px -8px #2c2c2c;
+  border-radius: 16px;
 }
 
 /* SOCIAL ICONS & BUTTONS*/
@@ -229,6 +237,7 @@ section {
   border-radius: 8px;
   color: #c00000;
   text-wrap: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
 }
 
 .btn:hover {
