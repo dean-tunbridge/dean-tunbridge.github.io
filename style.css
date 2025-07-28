@@ -425,7 +425,6 @@ section {
 .project-card:hover {
   background: var(--bg-color);
   color: var(--main-color);
-  border: 5px solid var(--main-color);
   transform: scale(1.1);
 }
 

@@ -7,9 +7,8 @@ menuIcon.onclick = () => {
 }
 
 document.querySelectorAll('.project-img').forEach((img) => {
-  let project = img.alt
-  let beforeImg = `${project}-before.png`
-  let afterImg = `${project}-after.png`
+  let beforeImg = `${img.alt}-before.png`
+  let afterImg = `${img.alt}-after.png`
 
   img.addEventListener('mouseover', () => {
     img.src = afterImg
