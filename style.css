@@ -250,7 +250,7 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #a4e400;
+  background-color: #c00000;
 }
 
 ::-webkit-scrollbar-track {
@@ -286,36 +286,34 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--main-color);
   height: 600px;
-  border-radius: 3rem;
   cursor: pointer;
-  border: 5px solid transparent;
+  background-color: #737373;
+  border: 8px #a0a0a0 solid;
   transition: 0.3s ease-in-out;
   color: white;
 }
 
 .skills-box:hover {
   background: var(--bg-color);
-  color: var(--main-color);
-  border: 5px solid var(--main-color);
+  color: #f8b800;
+  border: 8px solid #f8b800;
   transform: scale(1.1);
 }
 
-/*HOVER EFFECT FONT CHANGES */
-/* ------------------------ */
-/* .skills-box:hover h4 {
-  font-family: 'UnifrakturMaguntia', cursive;
-  font-size: 4rem;
-  color: #c77dff;
+.skills-box:nth-child(2):hover {
+  background: var(--bg-color);
+  color: #c00000;
+  border: 8px solid #c00000;
+  transform: scale(1.1);
 }
 
-.skills-box:hover p {
-  font-family: 'UnifrakturMaguntia', cursive;
-  font-size: 2rem;
-  color: #c77dff;
-} */
-/* ------------------------ */
+.skills-box:nth-child(3):hover {
+  background: var(--bg-color);
+  color: #a4e400;
+  border: 8px solid #a4e400;
+  transform: scale(1.1);
+}
 
 .skills-info {
   display: flex;
@@ -327,9 +325,9 @@ section {
 }
 
 .skills-info h4 {
-  font-size: 4rem;
+  font-family: 'Press Start 2P', system-ui;
+  font-size: 3rem;
   margin: 2rem 0;
-  font-weight: 800;
 }
 
 .skills-info p {
