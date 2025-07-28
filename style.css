@@ -245,9 +245,8 @@ section {
   background-color: #737373;
   border: 4px #a0a0a0 solid;
   border-radius: 8px;
-  color: #c00000;
+  color: white;
   text-wrap: none;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
 }
 
 .btn:hover {
