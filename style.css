@@ -322,7 +322,7 @@ section {
   background: var(--bg-color);
   color: var(--main-color);
   border: 5px solid var(--main-color);
-  transform: scale(1.02);
+  transform: scale(1.1);
 }
 
 /*HOVER EFFECT FONT CHANGES */
@@ -420,6 +420,13 @@ section {
   margin: 1rem 0;
   text-align: center;
   max-width: 65ch;
+}
+
+.project-card:hover {
+  background: var(--bg-color);
+  color: var(--main-color);
+  border: 5px solid var(--main-color);
+  transform: scale(1.1);
 }
 
 /* CONTACT */
