@@ -102,7 +102,7 @@ h3 {
 }
 
 .logo:hover {
-  transform: scale(1.05) translateY(-5px);
+  transform: scale(1.02) translateY(-5px);
 }
 
 span {
@@ -142,7 +142,7 @@ span {
 }
 
 .gradient-btn:hover {
-  transform: scale(1.02) translateY(-2px);
+  transform: scale(1.01) translateY(-2px);
   background-color: #880000;
   box-shadow: inset -8px -8px #3a0000;
   border-radius: 8px;
@@ -194,7 +194,7 @@ section {
 }
 
 .home-img img:hover {
-  transform: scale(1.02) translateY(-2px);
+  transform: scale(1.01) translateY(-2px);
   box-shadow: inset -4px -4px #2c2c2c;
   border-radius: 8px;
 }
@@ -219,14 +219,14 @@ section {
 .social-icons a:hover {
   background-color: var(--main-color);
   color: #00b8f8;
-  transform: scale(1.02) translateY(-2px);
+  transform: scale(1.01) translateY(-2px);
   border-radius: 8px;
   box-shadow: inset -8px -8px #2c2c2c;
 }
 .social-icons a:first-child:hover {
   background-color: var(--main-color);
   color: white;
-  transform: scale(1.02) translateY(-2px);
+  transform: scale(1.01) translateY(-2px);
   border-radius: 8px;
   box-shadow: inset -8px -8px #2c2c2c;
 }
@@ -250,7 +250,7 @@ section {
 }
 
 .btn:hover {
-  transform: scale(1.02) translateY(-2px);
+  transform: scale(1.01) translateY(-2px);
   box-shadow: inset -8px -8px #3c5300;
   background-color: #6b9600;
   border-radius: 8px;
@@ -338,7 +338,7 @@ section {
 
 .skills-box:hover {
   background: var(--bg-color);
-  transform: scale(1.02) translateY(-2px);
+  transform: scale(1.01);
   color: white;
 }
 
@@ -353,7 +353,6 @@ section {
 
 .skills-box:nth-of-type(2):hover {
   border: 8px solid #c00000;
-  transform: scale(1.02) translateY(-2px);
   box-shadow: inset -8px -8px #7a0000;
   border-radius: 8px;
 }
@@ -455,7 +454,7 @@ section {
 .project-card:hover {
   background: var(--bg-color);
   color: white;
-  transform: scale(1.02) translateY(-2px);
+  transform: scale(1.01);
 }
 
 .project-card:nth-of-type(1):hover {
