@@ -102,7 +102,7 @@ h3 {
 }
 
 .logo:hover {
-  transform: scale(1.1);
+  transform: scale(1.05) translateY(-5px);
 }
 
 span {
@@ -134,16 +134,17 @@ span {
   transition: 0.3s ease-in-out;
   background-color: #c00000;
   border: 4px #880000 solid;
+  box-shadow: inset -4px -4px #3a0000;
   border-radius: 8px;
   color: white;
   text-wrap: none;
 }
 
 .gradient-btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.05) translateY(-5px);
   background-color: #880000;
   box-shadow: inset -8px -8px #3a0000;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 section {
@@ -208,6 +209,7 @@ section {
   background: transparent;
   border: 4px #a0a0a0 solid;
   border-radius: 8px;
+  box-shadow: inset -4px -4px #2c2c2c;
   color: var(--main-color);
   margin: 3rem 0.5rem;
   transition: 0.3s ease-in-out;
@@ -217,14 +219,14 @@ section {
   background-color: var(--main-color);
   color: #00b8f8;
   transform: scale(1.02) translateY(-5px);
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: inset -8px -8px #2c2c2c;
 }
 .social-icons a:first-child:hover {
   background-color: var(--main-color);
-  color: #a4e400;
+  color: white;
   transform: scale(1.02) translateY(-5px);
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: inset -8px -8px #2c2c2c;
 }
 
@@ -239,6 +241,7 @@ section {
   padding: 2rem 2rem;
   transition: 0.3s ease-in-out;
   background-color: #a4e400;
+  box-shadow: inset -4px -4px #3c5300;
   border: 4px #6b9600 solid;
   border-radius: 8px;
   color: black;
@@ -246,9 +249,10 @@ section {
 }
 
 .btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.05) translateY(-5px);
   box-shadow: inset -8px -8px #3c5300;
-  border-radius: 16px;
+  background-color: #6b9600;
+  border-radius: 8px;
 }
 
 /* ABOUT ME SECTION */
