@@ -332,35 +332,42 @@ section {
   background-color: #737373;
   border: 8px #a0a0a0 solid;
   border-radius: 8px;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
   color: white;
 }
 
 .skills-box:hover {
   background: var(--bg-color);
-  color: #f8b800;
+  transform: scale(1.02) translateY(-2px);
+  color: white;
+}
+
+.skills-box:nth-of-type(1):hover {
   border: 8px solid #f8b800;
-  transform: scale(1.02);
   box-shadow: inset -8px -8px #8d6a00;
-  border-radius: 16px;
+  border-radius: 8px;
+}
+.skills-box:nth-of-type(1):hover h4 {
+  color: #f8b800;
 }
 
-.skills-box:nth-child(2):hover {
-  background: var(--bg-color);
-  color: #c00000;
+.skills-box:nth-of-type(2):hover {
   border: 8px solid #c00000;
-  transform: scale(1.02);
+  transform: scale(1.02) translateY(-2px);
   box-shadow: inset -8px -8px #7a0000;
-  border-radius: 16px;
+  border-radius: 8px;
+}
+.skills-box:nth-of-type(2):hover h4 {
+  color: #c00000;
 }
 
-.skills-box:nth-child(3):hover {
-  background: var(--bg-color);
-  color: #a4e400;
+.skills-box:nth-of-type(3):hover {
   border: 8px solid #a4e400;
-  transform: scale(1.02);
   box-shadow: inset -8px -8px #608600;
-  border-radius: 16px;
+  border-radius: 8px;
+}
+.skills-box:nth-of-type(3):hover h4 {
+  color: #a4e400;
 }
 
 .skills-info {
@@ -414,7 +421,7 @@ section {
   border-radius: 8px;
   padding: 2rem;
   gap: 2rem;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   width: 100%;
   max-width: 60%;
   cursor: pointer;
@@ -447,14 +454,14 @@ section {
 
 .project-card:hover {
   background: var(--bg-color);
-  color: var(--main-color);
-  transform: scale(1.02);
+  color: white;
+  transform: scale(1.02) translateY(-2px);
 }
 
 .project-card:nth-of-type(1):hover {
   border: 8px solid #f8b800;
   box-shadow: inset -8px -8px #8d6a00;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 .project-card:nth-of-type(1):hover h3 {
   color: #f8b800;
@@ -463,7 +470,7 @@ section {
 .project-card:nth-of-type(2):hover {
   border: 8px solid #f85800;
   box-shadow: inset -8px -8px #812d00;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 .project-card:nth-of-type(2):hover h3 {
   color: #f85800;
@@ -472,7 +479,7 @@ section {
 .project-card:nth-of-type(3):hover {
   border: 8px solid #2040c0;
   box-shadow: inset -8px -8px #112161;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 .project-card:nth-of-type(3):hover h3 {
   color: #2040c0;
@@ -481,7 +488,7 @@ section {
 .project-card:nth-of-type(4):hover {
   border: 8px solid #682b8c;
   box-shadow: inset -8px -8px #200e2b;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 .project-card:nth-of-type(4):hover h3 {
   color: #682b8c;
@@ -490,7 +497,7 @@ section {
 .project-card:nth-of-type(5):hover {
   border: 8px solid #c00000;
   box-shadow: inset -8px -8px #7a0000;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 .project-card:nth-of-type(5):hover h3 {
   color: #c00000;
@@ -551,7 +558,7 @@ footer ul li {
 footer ul li a {
   font-family: 'Press Start 2P', system-ui;
   color: white;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 footer ul li a:hover {
