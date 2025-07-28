@@ -8,22 +8,32 @@
 }
 
 :root {
-  --bg-color: black;
+  /* BASE COLORS */
+  --bg-color: #000000;
   --second-bg-color: #0a0a0a;
-  --text-color: #f8fafc;
-  --main-color: #525252;
-  /* COLOUR PALETTE */
-  --neutral-50: #fafafa;
-  --neutral-100: #f5f5f5;
-  --neutral-200: #e5e5e5;
-  --neutral-300: #d4d4d4;
-  --neutral-400: #a3a3a3;
-  --neutral-500: #737373;
-  --neutral-600: #525252;
-  --neutral-700: #404040;
-  --neutral-800: #262626;
-  --neutral-900: #171717;
-  --neutral-950: #0a0a0a;
+  --text-color: #ffffff;
+  --main-color: #545454;
+
+  /* 8-BIT RETRO PALETTE */
+  --red: #c00000;
+  --green: #00a000;
+  --blue: #2040c0;
+  --yellow: #f8b800;
+  --cyan: #00b8f8;
+  --magenta: #d82888;
+
+  /* SNES STYLE ACCENTS */
+  --purple: #682b8c;
+  --teal: #1c8a8c;
+  --orange: #f85800;
+  --lime: #a4e400;
+
+  /* GRAYSCALE SUPPORT */
+  --gray-100: #a0a0a0;
+  --gray-200: #737373;
+  --gray-300: #545454;
+  --gray-400: #2c2c2c;
+  --gray-500: #171717;
 }
 
 html {
@@ -34,6 +44,10 @@ html {
 body {
   background: var(--bg-color);
   color: var(--text-color);
+}
+
+h2 {
+  font-family: 'Press Start 2P', system-ui;
 }
 
 /* HEADER */
@@ -74,9 +88,8 @@ body {
 }
 
 span {
-  background: linear-gradient(270deg, var(--neutral-400), var(--neutral-700));
-  background-clip: text;
-  color: transparent;
+  font-family: 'Press Start 2P', system-ui;
+  color: #a4e400;
 }
 
 /* NAVBAR */
@@ -141,7 +154,7 @@ section {
 }
 
 .home-content h1 {
-  font-size: 10rem;
+  font-size: 7rem;
   font-weight: 700;
   margin-top: 1.5rem;
   line-height: 1;
@@ -226,7 +239,7 @@ section {
 }
 
 .about-content h2 {
-  font-size: 10rem;
+  font-size: 7rem;
 }
 
 .about-content p {
@@ -253,7 +266,7 @@ section {
 
 .heading {
   text-align: center;
-  font-size: 10rem;
+  font-size: 7rem;
   margin: 5rem 0;
 }
 
@@ -264,7 +277,7 @@ section {
 
 .skills h2 {
   color: var(--text-color);
-  font-size: 10rem;
+  font-size: 7rem;
 }
 
 .skills-container {
@@ -331,7 +344,7 @@ section {
 }
 
 .skills-info i {
-  font-size: 8rem;
+  font-size: 7rem;
 }
 
 /* PROJECTS SECTION */
