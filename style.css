@@ -113,12 +113,6 @@ span {
   border-bottom: 3px solid var(--main-color);
 }
 
-/* Tested animation on header with font change */
-/* 
-  font-family: 'UnifrakturMaguntia';
-  color: #c77dff;
-  font-size: 3rem; */
-
 .gradient-btn {
   font-family: 'Press Start 2P', system-ui;
   font-size: 2rem;
