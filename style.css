@@ -220,15 +220,15 @@ section {
 .social-icons a:hover {
   background-color: var(--main-color);
   color: #00b8f8;
-  transform: scale(1.2) translateY(-5px);
-  border-radius: 16px;
+  transform: scale(1.02) translateY(-5px);
+  border-radius: 12px;
   box-shadow: inset -8px -8px #2c2c2c;
 }
 .social-icons a:first-child:hover {
   background-color: var(--main-color);
-  color: white;
-  transform: scale(1.2) translateY(-5px);
-  border-radius: 16px;
+  color: #a4e400;
+  transform: scale(1.02) translateY(-5px);
+  border-radius: 12px;
   box-shadow: inset -8px -8px #2c2c2c;
 }
 
@@ -241,18 +241,17 @@ section {
   font-family: 'Press Start 2P', system-ui;
   font-size: 2rem;
   padding: 2rem 2rem;
-  cursor: pointer;
   transition: 0.3s ease-in-out;
-  background-color: #737373;
-  border: 4px #a0a0a0 solid;
+  background-color: #a4e400;
+  border: 4px #6b9600 solid;
   border-radius: 8px;
-  color: white;
+  color: black;
   text-wrap: none;
 }
 
 .btn:hover {
   transform: scale(1.1);
-  box-shadow: inset -8px -8px #2c2c2c;
+  box-shadow: inset -8px -8px #3c5300;
   border-radius: 16px;
 }
 
@@ -327,7 +326,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 100%;
   cursor: pointer;
   background-color: #737373;
   border: 8px #a0a0a0 solid;
@@ -379,9 +378,9 @@ section {
 }
 
 .skills-info p {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 600;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .skills-info i {
