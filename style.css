@@ -7,6 +7,21 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+*,
+input,
+textarea,
+select,
+button,
+a,
+img {
+  cursor: url('/cursor.png'), auto !important;
+}
+
+body.click,
+body.click * {
+  cursor: url('/cursor-click.png'), auto !important;
+}
+
 :root {
   /* BASE COLORS */
   --bg-color: #000000;

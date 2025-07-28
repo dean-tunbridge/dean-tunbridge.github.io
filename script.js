@@ -6,6 +6,8 @@ menuIcon.onclick = () => {
   navbar.classList.toggle('active')
 }
 
+// IMAGE SWITCH FOR PROJECTS //
+
 document.querySelectorAll('.project-img').forEach((img) => {
   let beforeImg = `${img.alt}-before.png`
   let afterImg = `${img.alt}-after.png`
@@ -27,4 +29,14 @@ document.querySelectorAll('.project-img').forEach((img) => {
       img.style.opacity = 1
     }, 100)
   })
+})
+
+// CURSOR //
+
+document.body.addEventListener('mousedown', () => {
+  document.body.classList.add('click')
+})
+
+document.body.addEventListener('mouseup', () => {
+  document.body.classList.remove('click')
 })
