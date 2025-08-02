@@ -128,24 +128,14 @@ span {
   border-bottom: 3px solid var(--main-color);
 }
 
-.gradient-btn {
-  font-family: 'Press Start 2P', system-ui;
-  font-size: 2rem;
-  padding: 2rem 2rem;
-  transition: 0.2s ease-in-out;
-  background-color: #c00000;
-  border: 4px #880000 solid;
-  box-shadow: inset -4px -4px #3a0000;
-  border-radius: 8px;
-  color: white;
-  text-wrap: none;
+.navbar a:nth-child(5) {
+  color: #a4e400;
 }
 
-.gradient-btn:hover {
+.navbar a:nth-child(5):hover {
   transform: scale(1.01) translateY(-2px);
-  background-color: #880000;
-  box-shadow: inset -8px -8px #3a0000;
-  border-radius: 8px;
+  color: #a4e400;
+  border-bottom: 3px solid var(--lime);
 }
 
 section {
