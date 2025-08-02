@@ -206,21 +206,13 @@ section {
 .btn {
   font-family: 'Press Start 2P', system-ui;
   font-size: 2rem;
-  padding: 2rem 2rem;
-  transition: 0.2s ease-in-out;
-  background-color: #a4e400;
-  box-shadow: inset -4px -4px #3c5300;
-  border: 4px #6b9600 solid;
-  border-radius: 8px;
-  color: black;
+  color: var(--lime);
+  background-color: var(--bg-color);
   text-wrap: none;
 }
 
 .btn:hover {
-  transform: scale(1.01) translateY(-2px);
-  box-shadow: inset -8px -8px #3c5300;
-  background-color: #6b9600;
-  border-radius: 8px;
+  color: #537400;
 }
 
 /* ABOUT ME SECTION */
@@ -239,7 +231,7 @@ section {
 }
 
 .about-content h2 {
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 .about-content p {
@@ -268,7 +260,7 @@ section {
 
 .heading {
   text-align: center;
-  font-size: 7rem;
+  font-size: 5rem;
   margin: 5rem 0;
 }
 
@@ -278,7 +270,7 @@ section {
 
 .skills h2 {
   color: var(--text-color);
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 .skills-container {
@@ -410,11 +402,17 @@ section {
 
 .contact form {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 3rem;
   margin: 5rem 0;
   text-align: center;
+}
+
+.contact input {
+  padding-top: 2rem;
+  border: none;
 }
 
 .contact form .input-box input,
