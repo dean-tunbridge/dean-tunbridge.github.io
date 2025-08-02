@@ -420,12 +420,26 @@ section {
   font-family: 'Press Start 2P', system-ui;
   width: 100%;
   padding: 2.5rem;
-  font-size: 1.5rem;
-  color: var(--text-color);
-  background-color: var(--bg-color);
-  border: 4px solid #a0a0a0;
   margin: 1.5rem 0;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  color: var(--text-color);
+  background-color: var(white);
   resize: none;
+}
+
+.input-group label {
+  font-family: 'Press Start 2P', system-ui;
+  color: var(--lime);
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.input-group-2 label {
+  font-family: 'Press Start 2P', system-ui;
+  color: var(--lime);
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 footer {
