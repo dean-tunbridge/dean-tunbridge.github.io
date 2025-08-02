@@ -316,17 +316,9 @@ section {
   align-items: center;
   height: 100%;
   cursor: pointer;
-  background-color: #737373;
-  border: 8px #a0a0a0 solid;
-  border-radius: 8px;
+  background-color: var(--second-bg-color);
   transition: 0.2s ease-in-out;
   color: white;
-}
-
-.skills-box:hover {
-  border: 8px solid #a4e400;
-  box-shadow: inset -8px -8px #608600;
-  border-radius: 8px;
 }
 
 .skills-info {
@@ -397,6 +389,7 @@ section {
   object-fit: cover;
   display: block;
   background-repeat: no-repeat;
+  border-radius: 30px;
 }
 
 .project-card p {
