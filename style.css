@@ -232,6 +232,8 @@ section {
 }
 
 .btn-group {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
   display: flex;
   gap: 1.5rem;
 }
