@@ -24,26 +24,12 @@ body.click * {
 
 :root {
   /* BASE COLORS */
-  --bg-color: #000000;
+  --bg-color: #202020;
   --second-bg-color: #0a0a0a;
   --text-color: #ffffff;
   --main-color: #545454;
-
-  /* 8-BIT RETRO PALETTE */
-  --red: #c00000;
-  --green: #00a000;
-  --blue: #2040c0;
-  --yellow: #f8b800;
-  --cyan: #00b8f8;
-  --magenta: #d82888;
-
-  /* SNES STYLE ACCENTS */
-  --purple: #682b8c;
-  --teal: #1c8a8c;
-  --orange: #f85800;
   --lime: #a4e400;
 
-  /* GRAYSCALE SUPPORT */
   --gray-100: #a0a0a0;
   --gray-200: #737373;
   --gray-300: #545454;
@@ -315,7 +301,7 @@ section {
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: var(--second-bg-color);
+  background-color: #6b950010;
   transition: 0.2s ease-in-out;
   color: white;
 }
