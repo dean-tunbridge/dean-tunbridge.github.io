@@ -125,7 +125,6 @@ span {
 
 .navbar a:hover {
   color: var(--main-color);
-  border-bottom: 3px solid var(--main-color);
 }
 
 .navbar a:nth-child(5) {
@@ -133,9 +132,7 @@ span {
 }
 
 .navbar a:nth-child(5):hover {
-  transform: scale(1.01) translateY(-2px);
-  color: #a4e400;
-  border-bottom: 3px solid var(--lime);
+  color: #537400;
 }
 
 section {
