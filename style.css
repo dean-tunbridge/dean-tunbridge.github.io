@@ -25,7 +25,7 @@ body.click * {
 :root {
   /* BASE COLORS */
   --bg-color: #202020;
-  --second-bg-color: #0a0a0a;
+  --second-bg-color: #6b950005;
   --text-color: #ffffff;
   --main-color: #545454;
   --lime: #a4e400;
@@ -194,14 +194,12 @@ section {
   color: #00b8f8;
   transform: scale(1.01) translateY(-2px);
   border-radius: 8px;
-  box-shadow: inset -8px -8px #2c2c2c;
 }
 .social-icons a:first-child:hover {
   background-color: var(--main-color);
   color: white;
   transform: scale(1.01) translateY(-2px);
   border-radius: 8px;
-  box-shadow: inset -8px -8px #2c2c2c;
 }
 
 .btn-group {
@@ -301,7 +299,7 @@ section {
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: #6b950010;
+  background-color: var(--second-bg-color);
   transition: 0.2s ease-in-out;
   color: white;
 }
