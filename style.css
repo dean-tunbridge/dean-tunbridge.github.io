@@ -422,7 +422,7 @@ section {
   margin: 1.5rem 0;
   font-size: 1.5rem;
   border-radius: 8px;
-  color: var(--text-color);
+  color: black;
   background-color: var(white);
   resize: none;
 }
