@@ -285,7 +285,7 @@ section {
 
 .skills-container {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   gap: 2.5rem;
   padding: 4rem 2rem;
 }
@@ -597,7 +597,8 @@ footer .copyright {
   .skills-info {
     max-width: 400px;
     width: 100%;
-    padding: 5rem;
+    padding: 2rem;
+    margin: 2rem auto;
   }
 
   .skills-container {
@@ -712,6 +713,19 @@ footer .copyright {
 
   .skills-info i {
     font-size: 5rem;
+  }
+
+  .skills-info i {
+    font-size: 5rem;
+  }
+
+  .skills-info h4 {
+    font-size: 2.5rem;
+  }
+
+  .skills-info p,
+  .skills-info li {
+    font-size: 1.6rem;
   }
 
   .home-img img,
