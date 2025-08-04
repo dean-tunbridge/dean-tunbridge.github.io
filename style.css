@@ -281,25 +281,35 @@ section {
   color: var(--text-color);
   font-size: 5rem;
   padding-bottom: 5rem;
+  text-align: center;
 }
 
 .skills-container {
-  display: flex;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: center;
   gap: 2.5rem;
   padding: 4rem 2rem;
+  gap: 5rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .skills-box {
+  background-color: var(--second-bg-color);
+  color: white;
+  transition: 0.2s ease-in-out;
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: var(--second-bg-color);
-  transition: 0.2s ease-in-out;
-  color: white;
-  max-width: 500px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+.skills-box:hover {
+  background-color: #6b950010;
 }
 
 .skills-info {
@@ -308,7 +318,6 @@ section {
   justify-content: center;
   align-items: center;
   padding: 5rem;
-  margin: 5rem;
   max-width: 400px;
   width: 100%;
   text-align: center;
@@ -363,6 +372,7 @@ section {
 .projects {
   padding: 4rem 2rem;
   margin: 0 auto;
+  max-width: 2000px;
 }
 
 .projects-box {
@@ -386,7 +396,7 @@ section {
   gap: 2rem;
   transition: 0.2s ease;
   width: 100%;
-  max-width: 60%;
+  max-width: 70%;
   cursor: pointer;
 }
 
@@ -606,6 +616,8 @@ footer .copyright {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
     gap: 2.5rem;
+    padding: 0;
+    margin: 0;
   }
 
   .skills-box {
