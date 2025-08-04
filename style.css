@@ -663,3 +663,14 @@ footer .copyright {
     font-size: 4rem;
   }
 }
+
+input,
+textarea {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 500px) {
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+}
