@@ -286,6 +286,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
   gap: 2.5rem;
+  padding: 4rem 2rem;
 }
 
 .skills-box {
@@ -296,40 +297,56 @@ section {
   background-color: var(--second-bg-color);
   transition: 0.2s ease-in-out;
   color: white;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .skills-info {
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
   align-items: center;
   padding: 5rem;
+  margin: 5rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
 }
 
-.skills-box .bx {
+.skills-info i {
+  font-size: 7rem;
+  margin-bottom: 2rem;
   color: #a4e400;
 }
 
 .skills-info h4 {
   font-family: 'Press Start 2P', system-ui;
-  color: #a4e400;
   font-size: 3rem;
-  margin: 2rem 0;
+  color: #a4e400;
+  margin-bottom: 1.5rem;
 }
 
-.skills-info p {
-  margin: 1rem;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.5;
+.skills-info ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 1.5rem 0 2rem 0;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
 }
 
 .skills-info li {
-  margin: 1rem;
+  margin: 0.8rem 0;
   font-size: 2rem;
+  line-height: 1.5;
+}
+
+.skills-info p {
+  font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.5;
+  margin-top: 1.5rem;
+  max-width: 400px;
 }
 
 .skills-info i {
@@ -344,6 +361,7 @@ section {
 
 .projects {
   padding: 4rem 2rem;
+  margin: 0 auto;
 }
 
 .projects-box {
@@ -354,6 +372,7 @@ section {
   gap: 3rem;
   row-gap: 5rem;
   align-items: center;
+  justify-content: center;
 }
 
 .project-card {
@@ -392,9 +411,10 @@ section {
 .project-card h3 {
   color: var(--lime);
   font-family: 'Press Start 2P', system-ui;
-  font-size: 3rem;
+  font-size: 4rem;
+  align-items: center;
   text-align: center;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .project-card:hover {
@@ -551,6 +571,29 @@ footer .copyright {
 
   .about img {
     width: 52vw;
+  }
+
+  .skills-info {
+    max-width: 400px;
+    width: 100%;
+    padding: 5rem;
+  }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .skills-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: var(--second-bg-color);
+    transition: 0.2s ease-in-out;
+    color: white;
   }
 
   .contact form {
