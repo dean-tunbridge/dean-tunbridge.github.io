@@ -419,14 +419,13 @@ section {
 }
 
 .project-card img {
-  padding: 10px;
-  margin: 10px;
-  max-height: 40em;
-  min-width: 50em;
+  width: 600px;
+  height: 400px;
   object-fit: cover;
+  border-radius: 20px;
+  padding: 0;
+  margin: 0;
   display: block;
-  background-repeat: no-repeat;
-  border-radius: 30px;
 }
 
 .project-card p {
