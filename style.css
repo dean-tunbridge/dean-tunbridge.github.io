@@ -210,7 +210,7 @@ section {
   font-size: 2rem;
   color: var(--lime);
   background-color: var(--bg-color);
-  text-wrap: none;
+  white-space: nowrap;
 }
 
 .btn:hover {
