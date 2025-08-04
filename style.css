@@ -328,6 +328,10 @@ section {
   font-size: 7rem;
 }
 
+.skills-box:hover {
+  background-color: #6b950010;
+}
+
 /* PROJECTS SECTION */
 
 .projects {
@@ -386,7 +390,7 @@ section {
 }
 
 .project-card:hover {
-  border-radius: 8px;
+  background-color: #6b950010;
 }
 
 /* CONTACT */
