@@ -452,6 +452,12 @@ section {
   background-color: #6b950010;
 }
 
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 /* CONTACT */
 
 .contact {
