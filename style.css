@@ -612,6 +612,26 @@ footer .copyright {
     font-size: 2.5rem;
   }
 
+  .home-img img,
+  .about img {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .project-card {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .project-card img {
+    width: 90%;
+    max-height: 250px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+  }
+
   .home-content p,
   .about-content p,
   .skills-info p,
