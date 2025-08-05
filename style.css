@@ -642,6 +642,10 @@ footer .copyright {
   }
 }
 
+.copyright {
+  color: #a4e400;
+}
+
 /* Tablets */
 @media (max-width: 1024px) {
   html {
