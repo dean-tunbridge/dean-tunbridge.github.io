@@ -7,7 +7,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-*,
+/* CURSOR */
+/* *,
 input,
 textarea,
 select,
@@ -20,7 +21,7 @@ img {
 body.click,
 body.click * {
   cursor: url('/cursor-click.png'), auto !important;
-}
+} */
 
 :root {
   /* BASE COLORS */
@@ -45,7 +46,7 @@ html {
 body {
   background: var(--bg-color);
   color: var(--text-color);
-  cursor: url('/cursor.png'), auto;
+  /* cursor: url('/cursor.png'), auto; */
 }
 
 h1,

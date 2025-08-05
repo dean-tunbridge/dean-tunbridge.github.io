@@ -33,10 +33,10 @@ document.querySelectorAll('.project-img').forEach((img) => {
 
 // CURSOR //
 
-document.body.addEventListener('mousedown', () => {
-  document.body.classList.add('click')
-})
+// document.body.addEventListener('mousedown', () => {
+//   document.body.classList.add('click')
+// })
 
-document.body.addEventListener('mouseup', () => {
-  document.body.classList.remove('click')
-})
+// document.body.addEventListener('mouseup', () => {
+//   document.body.classList.remove('click')
+// })
