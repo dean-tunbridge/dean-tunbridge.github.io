@@ -390,7 +390,6 @@ section {
   gap: 2rem;
   width: 100%;
   max-width: 70%;
-  cursor: pointer;
 }
 
 .project-text-content {
