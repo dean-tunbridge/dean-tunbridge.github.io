@@ -6,6 +6,13 @@ menuIcon.onclick = () => {
   navbar.classList.toggle('active')
 }
 
+document.querySelectorAll('.navbar a').forEach((link) => {
+  link.onclick = () => {
+    menuIcon.classList.remove('bx-x')
+    navbar.classList.remove('active')
+  }
+})
+
 // IMAGE SWITCH FOR PROJECTS //
 
 document.querySelectorAll('.project-img').forEach((img) => {
