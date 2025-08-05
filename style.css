@@ -373,7 +373,6 @@ section {
 .projects-box {
   display: flex;
   flex-direction: column;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   place-items: center;
   gap: 3rem;
   row-gap: 5rem;
@@ -389,7 +388,6 @@ section {
   border-radius: 8px;
   padding: 2rem;
   gap: 2rem;
-  transition: 0.2s ease;
   width: 100%;
   max-width: 70%;
   cursor: pointer;
