@@ -104,7 +104,6 @@ span {
   font-family: 'Press Start 2P', system-ui;
   color: var(--text-color);
   margin-left: 4rem;
-  font-weight: 500;
   transition: 0.2s ease-in-out;
   border-bottom: 3px solid transparent;
 }
@@ -352,8 +351,7 @@ section {
 }
 
 .skills-info p {
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 2rem;
   line-height: 1.5;
   margin-top: 1.5rem;
   max-width: 400px;
@@ -436,7 +434,7 @@ section {
 
 .project-card p {
   font-size: 2rem;
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 1rem 0;
   text-align: center;
   width: 100%;
@@ -463,7 +461,7 @@ section {
   color: inherit;
 }
 
-/* CONTACT */
+/* CONTACT FULL FORM LAYOUT*/
 
 .contact {
   background-color: var(--bg-color);
@@ -515,6 +513,23 @@ section {
   text-align: left;
 }
 
+/* CONTACT SIMPLE EMAIL AND LINKEDIN */
+
+.contact p {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+  text-align: center;
+  width: 100%;
+  max-width: 65ch;
+}
+
+.contact a {
+  color: var(--lime);
+}
+
+/* FOOTER */
+
 footer {
   background-color: var(--bg-color);
   padding: 50px 0;
@@ -541,6 +556,7 @@ footer ul li a:hover {
 }
 
 footer .copyright {
+  color: var(--lime);
   text-align: center;
   margin-top: 40px;
   font-size: 16px;
@@ -640,10 +656,6 @@ footer .copyright {
   .contact form {
     flex-direction: column;
   }
-}
-
-.copyright {
-  color: #a4e400;
 }
 
 /* Tablets */
