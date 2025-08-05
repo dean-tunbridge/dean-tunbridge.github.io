@@ -307,10 +307,10 @@ section {
   width: 100%;
   max-width: 100%;
 }
-
+/* 
 .skills-box:hover {
   background-color: #6b950010;
-}
+} */
 
 .skills-info {
   display: flex;
@@ -360,10 +360,6 @@ section {
 
 .skills-info i {
   font-size: 7rem;
-}
-
-.skills-box:hover {
-  background-color: #6b950010;
 }
 
 /* PROJECTS SECTION */
@@ -452,9 +448,9 @@ section {
   margin: 2rem;
 }
 
-.project-card:hover {
+/* .project-card:hover {
   background-color: #6b950010;
-}
+} */
 
 .card-link {
   display: block;
