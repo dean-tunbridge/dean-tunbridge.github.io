@@ -458,7 +458,7 @@ section {
   color: inherit;
 }
 
-/* CONTACT FULL FORM LAYOUT*/
+/* CONTACT SIMPLE EMAIL AND LINKEDIN */
 
 .contact {
   background-color: var(--bg-color);
@@ -468,6 +468,21 @@ section {
   margin-bottom: 3rem;
   color: var(--text-color);
 }
+
+.contact p {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+  text-align: center;
+  width: 100%;
+  max-width: 65ch;
+}
+
+.contact a {
+  color: var(--lime);
+}
+
+/* CONTACT FULL FORM LAYOUT*/
 
 .contact form {
   display: flex;
@@ -508,21 +523,6 @@ section {
   color: var(--lime);
   font-size: 1.5rem;
   text-align: left;
-}
-
-/* CONTACT SIMPLE EMAIL AND LINKEDIN */
-
-.contact p {
-  font-size: 2rem;
-  line-height: 1.5;
-  margin: 1rem 0;
-  text-align: center;
-  width: 100%;
-  max-width: 65ch;
-}
-
-.contact a {
-  color: var(--lime);
 }
 
 /* FOOTER */
