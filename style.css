@@ -394,6 +394,7 @@ section {
   background-color: var(--second-bg-color);
   border-radius: 8px;
   padding: 2rem;
+  margin: 4rem;
   gap: 2rem;
   width: 100%;
   max-width: 70%;
@@ -656,6 +657,19 @@ footer .copyright {
     background-color: var(--second-bg-color);
     transition: 0.2s ease-in-out;
     color: white;
+  }
+
+  .project-card {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: var(--second-bg-color);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 4rem;
+    gap: 2rem;
+    width: 100%;
+    max-width: 80%;
   }
 
   .contact form {
