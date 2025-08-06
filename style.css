@@ -313,14 +313,14 @@ section {
 }
 
 .skills-info i {
-  font-size: 7rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
   color: #a4e400;
 }
 
 .skills-info h4 {
   font-family: 'Press Start 2P', system-ui;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #a4e400;
   margin-bottom: 1.5rem;
 }
@@ -336,12 +336,12 @@ section {
 
 .skills-info li {
   margin: 0.8rem 0;
-  font-size: 2rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
 .skills-info i {
-  font-size: 7rem;
+  font-size: 4rem;
 }
 
 /* PROJECTS SECTION */
@@ -386,11 +386,11 @@ section {
 
 .projects-btn {
   font-family: 'Press Start 2P', system-ui;
-  font-size: 2rem;
+  font-size: 1rem;
   color: var(--secondary-color);
   background-color: var(--second-bg-color);
   white-space: nowrap;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .projects-btn:hover {
