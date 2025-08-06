@@ -380,11 +380,11 @@ section {
 .projects-box {
   display: flex;
   flex-direction: column;
-  place-items: center;
+  place-items: left;
   gap: 3rem;
   row-gap: 5rem;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 }
 
 .project-card {
