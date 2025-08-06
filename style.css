@@ -132,7 +132,7 @@ span {
 }
 
 .navbar a {
-  font-size: 0.75rem;
+  font-size: 0.5rem;
   font-family: 'Press Start 2P', system-ui;
   color: var(--white);
   margin-left: 4rem;
@@ -197,11 +197,11 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-size: 6rem;
+  font-size: 2.5rem;
   padding: 1rem;
   background: transparent;
   color: white;
-  margin: 3rem 0.5rem;
+  margin: 1rem 0.5rem;
   transition: 0.2s ease-in-out;
 }
 
@@ -224,7 +224,7 @@ section {
 
 .btn {
   font-family: 'Press Start 2P', system-ui;
-  font-size: 2rem;
+  font-size: 1rem;
   color: var(--secondary-color);
   background-color: var(--bg-color);
   white-space: nowrap;
@@ -268,13 +268,6 @@ section {
 }
 
 /* SKILLS SECTION */
-
-.heading {
-  text-align: center;
-  font-size: 5rem;
-  margin: 5rem 0;
-  padding-bottom: 5rem;
-}
 
 .skills {
   color: black;
@@ -711,7 +704,6 @@ footer .copyright {
 
     .about-content h2,
     .skills h2,
-    .heading,
     .project-card h3 {
       font-size: 1.5rem;
     }
