@@ -346,21 +346,20 @@ section {
   display: flex;
   flex-direction: column;
   place-items: left;
-  gap: 3rem;
-  row-gap: 5rem;
+  gap: 2rem;
+  row-gap: 2rem;
   align-items: left;
   justify-content: left;
 }
 
 .project-card {
+  background-color: orange;
   display: flex;
   align-items: center;
   text-align: left;
-  background-color: var(--second-bg-color);
   border-radius: 8px;
   padding: 2rem;
-  margin: 4rem 0;
-  gap: 2rem;
+  margin: 2rem 0;
   width: 100%;
 }
 
@@ -397,10 +396,6 @@ section {
   margin: 0;
   display: block;
 }
-
-/* .project-card:hover {
-  background-color: #6b950010;
-} */
 
 .card-link {
   display: block;
