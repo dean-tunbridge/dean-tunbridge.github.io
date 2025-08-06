@@ -296,10 +296,6 @@ section {
   height: 100%;
   width: 100%;
 }
-/* 
-.skills-box:hover {
-  background-color: #6b950010;
-} */
 
 .skills-info {
   display: flex;
@@ -363,7 +359,7 @@ section {
   background-color: var(--second-bg-color);
   border-radius: 8px;
   padding: 2rem;
-  margin: 4rem;
+  margin: 4rem 0;
   gap: 2rem;
   width: 100%;
 }
