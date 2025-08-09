@@ -53,13 +53,14 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Press Start 2P', system-ui;
+  font-family: 'Unbounded', system-ui;
 }
 
 h1 {
   color: white;
   font-size: 3rem;
   line-height: 150%;
+  text-transform: uppercase;
 }
 
 h2 {
