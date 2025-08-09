@@ -521,10 +521,6 @@ footer .copyright {
     display: block;
   }
 
-  .gradient-btn {
-    display: none;
-  }
-
   .home {
     flex-direction: column-reverse;
     margin: 5rem 0;
@@ -586,8 +582,8 @@ footer .copyright {
     text-align: left;
     background-color: var(--second-bg-color);
     border-radius: 8px;
-    padding: 2rem;
-    margin: 4rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
     gap: 2rem;
     width: 100%;
     max-width: 80%;
