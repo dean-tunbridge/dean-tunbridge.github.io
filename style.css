@@ -276,11 +276,10 @@ span {
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: center;
-  gap: 2.5rem;
+  gap: 2rem;
   padding: 4rem 0;
-  gap: 4rem;
   max-width: 1400px;
   margin: 0 auto;
 }
