@@ -302,29 +302,28 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
+  padding: 2rem;
   max-width: 400px;
   width: 100%;
   text-align: center;
 }
 
 .skills-info i {
-  font-size: 1rem;
-  margin-bottom: 2rem;
+  font-size: 4rem;
+  margin: 2rem 0;
   color: #a4e400;
 }
 
 .skills-info h4 {
   font-family: 'Press Start 2P', system-ui;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #a4e400;
-  margin-bottom: 1.5rem;
 }
 
 .skills-info ul {
   list-style-position: inside;
   padding-left: 0;
-  margin: 1.5rem 0 2rem 0;
+  margin: 1.5rem 0;
   width: 100%;
   max-width: 300px;
   text-align: left;
@@ -334,10 +333,6 @@ span {
   margin: 0.8rem 0;
   font-size: 1rem;
   line-height: 1.5;
-}
-
-.skills-info i {
-  font-size: 4rem;
 }
 
 /* PROJECTS SECTION */
