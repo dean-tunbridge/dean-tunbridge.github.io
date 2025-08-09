@@ -45,33 +45,37 @@ html {
 }
 
 body {
-  background: var(--bg-color);
-  color: var(--white);
+  background: var(--eggshell);
+  color: var(--charcoal);
   /* cursor: url('/cursor.png'), auto; */
 }
 
-h1,
 h2,
 h3 {
   font-family: 'Unbounded', system-ui;
-}
-
-h1 {
-  color: white;
-  font-size: 3rem;
-  line-height: 150%;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
+h1 {
+  color: var(--charcoal);
+  font-family: 'Unbounded', system-ui;
+  font-weight: 800;
+  font-size: 8rem;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: left;
+}
+
 h2 {
-  color: var(--white);
+  color: var(--charcoal);
   font-size: 2rem;
   padding-top: 1.5rem;
   line-height: 150%;
 }
 
 h3 {
-  color: var(--secondary-color);
+  color: var(--charcoal);
   font-size: 1.5rem;
   line-height: 200%;
 }
@@ -80,6 +84,7 @@ p {
   margin: 1rem 0;
   font-size: 1rem;
   line-height: 150%;
+  color: var(--charcoal);
 }
 
 section {
@@ -97,7 +102,7 @@ section {
   top: 0;
   left: 0;
   padding: 1.5rem;
-  background: rgba(0, 0, 0, 0.3);
+  background: var(250, 243, 221, 0.3);
   backdrop-filter: blur(20px);
   display: flex;
   justify-content: space-between;
@@ -107,19 +112,20 @@ section {
 
 #menu-icon {
   font-size: 1rem;
-  color: var(--white);
+  color: var(--charcoal);
   display: none;
   cursor: pointer;
 }
 
 .logo {
   font-size: 1.5rem;
-  color: var(--white);
+  color: var(--charcoal);
+  text-transform: uppercase;
   transition: 0.2s ease-in-out;
 }
 
 .logo-font {
-  font-family: 'Press Start 2P', system-ui;
+  font-family: 'Unbounded', system-ui;
 }
 
 .logo:hover {
@@ -127,8 +133,8 @@ section {
 }
 
 span {
-  font-family: 'Press Start 2P', system-ui;
-  color: #a4e400;
+  font-family: 'Unbounded', system-ui;
+  color: var(--charcoal);
   line-height: 150%;
 }
 
@@ -136,30 +142,30 @@ span {
 
 .navbar.active {
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(250, 243, 221, 0.3);
   backdrop-filter: blur(20px);
   width: 33%;
 }
 
 .navbar a {
   font-size: 0.5rem;
-  font-family: 'Press Start 2P', system-ui;
-  color: var(--white);
+  font-family: 'Unbounded', system-ui;
+  color: var(--charcoal);
   margin-left: 4rem;
   transition: 0.2s ease-in-out;
   border-bottom: 3px solid transparent;
 }
 
 .navbar a:hover {
-  color: var(--secondary-color);
+  color: var(--dusty-teal);
 }
 
 .navbar a:nth-child(5) {
-  color: var(--secondary-color);
+  color: var(--charcoal);
 }
 
 .navbar a:nth-child(5):hover {
-  color: var(--white);
+  color: var(--dusty-teal);
 }
 
 /* HOME SECTION */
@@ -204,7 +210,7 @@ span {
   font-size: 2.5rem;
   padding: 1rem;
   background: transparent;
-  color: white;
+  color: var(--charcoal);
   margin: 1rem 0.5rem;
   transition: 0.2s ease-in-out;
 }
@@ -215,7 +221,7 @@ span {
 }
 
 .social-icons a:first-child:hover {
-  color: white;
+  color: var(--dusty-teal);
   transform: scale(1.01) translateY(-2px);
 }
 
@@ -227,15 +233,15 @@ span {
 }
 
 .btn {
-  font-family: 'Press Start 2P', system-ui;
+  font-family: 'Unbounded', system-ui;
   font-size: 1rem;
-  color: var(--secondary-color);
-  background-color: var(--bg-color);
+  color: var(--charcoal);
+  background-color: var(--eggshell);
   white-space: nowrap;
 }
 
 .btn:hover {
-  color: #537400;
+  color: var(--dusty-teal);
 }
 
 /* ABOUT ME SECTION */
@@ -263,7 +269,7 @@ span {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #a4e400;
+  background-color: var(--charcoal);
 }
 
 ::-webkit-scrollbar-track {
@@ -288,7 +294,6 @@ span {
 
 .skills-box {
   background-color: var(--secondary-bg-color);
-  color: white;
   transition: 0.2s ease-in-out;
   border-radius: 8px;
   display: flex;
@@ -312,13 +317,13 @@ span {
 .skills-info i {
   font-size: 4rem;
   margin: 2rem 0;
-  color: #a4e400;
+  color: var(--dusty-teal);
 }
 
 .skills-info h4 {
-  font-family: 'Press Start 2P', system-ui;
+  font-family: 'Unbounded', system-ui;
   font-size: 1rem;
-  color: #a4e400;
+  color: var(--charcoal);
 }
 
 .skills-info ul {
@@ -328,6 +333,7 @@ span {
   width: 100%;
   max-width: 300px;
   text-align: left;
+  color: var(--charcoal);
 }
 
 .skills-info li {
@@ -377,16 +383,16 @@ span {
 }
 
 .projects-btn {
-  font-family: 'Press Start 2P', system-ui;
+  font-family: 'Unbounded', system-ui;
   font-size: 1rem;
-  color: var(--secondary-color);
-  background-color: var(--second-bg-color);
+  color: var(--dusty-teal);
+  background-color: var(--eggshell);
   white-space: nowrap;
   margin-top: 2rem;
 }
 
 .projects-btn:hover {
-  color: #537400;
+  color: var(--charcoal);
 }
 
 .project-card img {
@@ -410,7 +416,11 @@ span {
 /* CONTACT SIMPLE EMAIL AND LINKEDIN */
 
 .contact a {
-  color: var(--secondary-color);
+  color: var(--dusty-teal);
+}
+
+.contact a:hover {
+  color: var(--charcoal);
 }
 
 /* CONTACT FULL FORM LAYOUT*/
@@ -431,7 +441,7 @@ span {
 
 .contact form .input-box input,
 .contact form textarea {
-  font-family: 'Press Start 2P', system-ui;
+  font-family: 'Unbounded', system-ui;
   width: 100%;
   padding: 2.5rem;
   margin: 3rem 0;
@@ -443,14 +453,14 @@ span {
 }
 
 .input-group label {
-  font-family: 'Press Start 2P', system-ui;
+  font-family: 'Unbounded', system-ui;
   color: var(--secondary-color);
   font-size: 1.5rem;
   text-align: left;
 }
 
 .input-group-2 label {
-  font-family: 'Press Start 2P', system-ui;
+  font-family: 'Unbounded', system-ui;
   color: var(--secondary-color);
   font-size: 1.5rem;
   text-align: left;
@@ -459,7 +469,7 @@ span {
 /* FOOTER */
 
 footer {
-  background-color: var(--bg-color);
+  background-color: var(--eggshell);
   padding: 50px 0;
 }
 
@@ -474,17 +484,18 @@ footer ul li {
 }
 
 footer ul li a {
-  font-family: 'Press Start 2P', system-ui;
-  color: white;
+  font-family: 'Unbounded', system-ui;
+  color: var(--charcoal);
   transition: 0.2s ease-in-out;
 }
 
 footer ul li a:hover {
+  color: var(--dusty-teal);
   border-bottom: 3px solid var(--main-color);
 }
 
 footer .copyright {
-  color: var(--secondary-color);
+  color: var(--charcoal);
   text-align: center;
   margin-top: 40px;
   font-size: 16px;
