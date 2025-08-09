@@ -280,13 +280,13 @@ span {
   justify-content: center;
   gap: 2.5rem;
   padding: 4rem 0;
-  gap: 5rem;
+  gap: 4rem;
   max-width: 1400px;
   margin: 0 auto;
 }
 
 .skills-box {
-  background-color: orange;
+  background-color: var(--secondary-bg-color);
   color: white;
   transition: 0.2s ease-in-out;
   border-radius: 8px;
@@ -353,7 +353,7 @@ span {
 }
 
 .project-card {
-  background-color: orange;
+  background-color: var(--secondary-bg-color);
   display: flex;
   align-items: center;
   text-align: left;
