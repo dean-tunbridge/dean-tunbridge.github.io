@@ -33,6 +33,10 @@ body.click * {
 
   /* NEW PALETTE IDEAS */
   --eggshell: #faf3dd;
+  --charcoal: #2e2e2e;
+  --terracotta: #d97d54;
+  --dusty-teal: #5f8575;
+  --blush-rose: #d9a5b3;
 }
 
 html {
