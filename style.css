@@ -30,12 +30,6 @@ body.click * {
   --white: #ffffff;
   --primary-color: #545454;
   --secondary-color: #a4e400;
-
-  --gray-100: #a0a0a0;
-  --gray-200: #737373;
-  --gray-300: #545454;
-  --gray-400: #2c2c2c;
-  --gray-500: #171717;
 }
 
 html {
