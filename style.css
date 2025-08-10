@@ -119,7 +119,8 @@ section {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 900;
   color: var(--charcoal);
   text-transform: uppercase;
   transition: 0.2s ease-in-out;
@@ -137,6 +138,26 @@ span {
   font-family: 'Unbounded', system-ui;
   color: var(--charcoal);
   line-height: 150%;
+}
+
+.gradient-btn {
+  padding: 12px 24px;
+  color: var(--charcoal);
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--verdigris), var(--blush-rose));
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-btn:hover {
+  background: linear-gradient(135deg, var(--blush-rose), var(--verdigris));
+  transform: scale(1.05);
+}
+
+.gradient-btn:active {
+  transform: scale(0.98);
 }
 
 /* NAVBAR */
