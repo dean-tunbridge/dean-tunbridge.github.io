@@ -631,27 +631,28 @@ footer .copyright {
     font-size: 45%;
   }
 
+  h1 {
+    font-size: 4rem;
+  }
+
   h2 {
     text-align: center;
+  }
+
+  h3 {
+    font-size: 1.2rem;
   }
 
   .navbar .gradient-btn {
     display: none;
   }
 
-  .home-content h1 {
-    font-size: 4rem;
-  }
-  .home-content h3 {
-    font-size: 1.2rem;
-  }
-
-  .skills-info h4 {
+  h4 {
     font-size: 2rem;
   }
 
-  .skills-info p,
-  .skills-info li {
+  p,
+  li {
     font-size: 1.4rem;
   }
 
