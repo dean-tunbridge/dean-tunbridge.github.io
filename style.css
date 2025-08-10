@@ -38,6 +38,7 @@ body.click * {
   --dusty-teal: #5f8575;
   --verdigris: #68b0ab;
   --blush-rose: #d9a5b3;
+  --malachite-green: #74f5a1;
 }
 
 html {
@@ -145,19 +146,23 @@ span {
   color: var(--charcoal);
   border: none;
   border-radius: 16px;
-  background: linear-gradient(135deg, var(--verdigris), var(--blush-rose));
+  background: linear-gradient(
+    135deg,
+    var(--malachite-green),
+    var(--secondary-color)
+  );
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .gradient-btn:hover {
-  background: linear-gradient(135deg, var(--blush-rose), var(--verdigris));
-  transform: scale(1.05);
-}
-
-.gradient-btn:active {
-  transform: scale(0.98);
+  background: linear-gradient(
+    135deg,
+    var(--secondary-color),
+    var(--malachite-green)
+  );
+  transform: scale(1.02);
 }
 
 /* NAVBAR */
