@@ -114,7 +114,7 @@ section {
 }
 
 #menu-icon {
-  font-size: 1rem;
+  font-size: 2rem;
   color: var(--charcoal);
   display: none;
   cursor: pointer;
@@ -545,7 +545,7 @@ footer .copyright {
     display: block;
     font-size: 2rem;
     margin: 3rem;
-    color: var(--white);
+    color: var(--charcoal);
   }
 
   .navbar.active {
@@ -572,7 +572,7 @@ footer .copyright {
     text-align: center;
   }
 
-  .about h2 {
+  h2 {
     text-align: center;
     margin: 2rem 0;
   }
@@ -631,7 +631,17 @@ footer .copyright {
     font-size: 45%;
   }
 
-  .home-content h1,
+  h2 {
+    text-align: center;
+  }
+
+  .navbar .gradient-btn {
+    display: none;
+  }
+
+  .home-content h1 {
+    font-size: 4rem;
+  }
   .home-content h3 {
     font-size: 1.2rem;
   }
@@ -669,30 +679,33 @@ footer .copyright {
     padding: 2rem 5%;
   }
 
-  section {
-    padding: 6rem 5%;
-    margin-top: 8rem;
+  .gradient-btn {
+    font-size: 1.5rem;
   }
 
-  .home-content h1 {
+  section {
+    padding: 6rem 5%;
+    margin: 8rem 0;
+  }
+
+  h1 {
     font-size: 4rem;
   }
 
-  .home-content h3 {
-    font-size: 1.2rem;
+  h2 {
+    font-size: 2rem;
   }
 
-  .home-content p,
-  .about-content p,
-  .skills-info p,
-  .project-card p {
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
     font-size: 1.3rem;
   }
 
-  .about-content h2,
-  .skills h2,
-  .project-card h3 {
-    font-size: 1.3rem;
+  ul {
+    text-align: center;
   }
 
   .skills-info i {
