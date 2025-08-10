@@ -149,7 +149,7 @@ span {
 }
 
 .navbar a {
-  font-size: 0.5rem;
+  font-size: 1rem;
   font-family: 'Unbounded', system-ui;
   color: var(--charcoal);
   margin-left: 4rem;
