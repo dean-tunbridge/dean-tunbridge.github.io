@@ -178,18 +178,9 @@ span {
   border-bottom: 3px solid transparent;
 }
 
-.navbar a:hover {
-  color: var(--dusty-teal);
+.navbar a:not(.gradient-btn):hover {
+  border-bottom: 2px solid var(--charcoal);
 }
-
-.navbar a:nth-child(5) {
-  color: var(--charcoal);
-}
-
-.navbar a:nth-child(5):hover {
-  color: var(--dusty-teal);
-}
-
 /* HOME SECTION */
 
 .home {
