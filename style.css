@@ -300,7 +300,7 @@ span {
 /* SKILLS SECTION */
 
 .skills {
-  color: black;
+  color: var(--charcoal);
 }
 
 .skills-container {
@@ -359,7 +359,7 @@ span {
 
 .skills-info li {
   margin: 0.8rem 0;
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 1.5;
 }
 
