@@ -668,6 +668,10 @@ footer .copyright {
     border-radius: 20px;
   }
 
+  .projects-box {
+    align-items: center;
+  }
+
   .skills-info ul {
     margin-left: auto;
     margin-right: auto;
