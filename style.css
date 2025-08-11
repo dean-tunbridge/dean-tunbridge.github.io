@@ -86,7 +86,7 @@ h3 {
 
 p {
   margin: 1rem 0;
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 150%;
   color: var(--charcoal);
 }
@@ -146,6 +146,7 @@ span {
 .gradient-btn {
   padding: 12px 24px;
   color: var(--charcoal);
+  font-size: 1.4rem;
   border: none;
   border-radius: 16px;
   background: linear-gradient(
