@@ -552,6 +552,13 @@ footer .copyright {
     display: block;
   }
 
+  .navbar .gradient-btn {
+    background: none;
+    color: inherit;
+    transform: scale(1);
+    box-shadow: none;
+  }
+
   .home {
     flex-direction: column-reverse;
     margin: 5rem 0;
