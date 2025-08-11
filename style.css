@@ -40,6 +40,7 @@ body.click * {
   --verdigris: #68b0ab;
   --blush-rose: #d9a5b3;
   --malachite-green: #74f5a1;
+  --spring-green: #00ff87;
 }
 
 html {
@@ -150,7 +151,7 @@ span {
   background: linear-gradient(
     135deg,
     var(--malachite-green),
-    var(--secondary-color)
+    var(--spring-green)
   );
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
@@ -160,7 +161,7 @@ span {
 .gradient-btn:hover {
   background: linear-gradient(
     135deg,
-    var(--secondary-color),
+    var(--spring-green),
     var(--malachite-green)
   );
   transform: scale(1.02);
