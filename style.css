@@ -498,7 +498,7 @@ footer ul {
 
 footer ul li {
   display: inline-block;
-  margin: 0 32px;
+  margin: 0 2rem;
 }
 
 footer ul li a {
@@ -622,6 +622,11 @@ footer .copyright {
   .contact form {
     flex-direction: column;
   }
+
+  footer .copyright {
+    margin-top: 20px;
+    font-size: 0.75rem;
+  }
 }
 
 /* Tablets */
@@ -687,6 +692,11 @@ footer .copyright {
 
   .skills-info li {
     margin: 0.8rem auto;
+  }
+
+  footer ul li {
+    display: inline-block;
+    margin: 0 1rem;
   }
 }
 
