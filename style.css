@@ -557,6 +557,11 @@ footer .copyright {
     color: inherit;
     transform: scale(1);
     box-shadow: none;
+    border-radius: 0;
+  }
+
+  .navbar .gradient-btn:hover {
+    border-bottom: 2px solid var(--charcoal);
   }
 
   .home {
